@@ -1,0 +1,18 @@
+# Launcher (PyInstaller output / python cache) -- each C++ subproject
+# already has its own .gitignore for build/dist/deps.
+launcher/build/
+launcher/dist/
+__pycache__/
+*.pyc
+
+.vs/
+.vscode/
+Thumbs.db
+.DS_Store
+
+# Generated publish tree -- build output, rebuilt by publish.bat.
+dist/
+
+# CMake build directories
+build/
+build-*/

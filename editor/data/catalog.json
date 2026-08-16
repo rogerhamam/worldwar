@@ -1,0 +1,1495 @@
+{
+ "units": {
+  "aa gun": {
+   "melee": false,
+   "max_life": 180,
+   "armor": 2,
+   "pierce": 2,
+   "display": "AA Gun",
+   "range": 7,
+   "sight": 7,
+   "reload": 200,
+   "bullet_sprite": "spr_bullet_large",
+   "sprite_index": "spr_aa_gun",
+   "icon_sprite": "spr_aa_gun_icon",
+   "mask_index": "spr_45unit_mask",
+   "cost": {
+    "oil": 60,
+    "iron": 80
+   },
+   "speed": 0.5,
+   "attack": 50
+  },
+  "artillery": {
+   "melee": false,
+   "max_life": 60,
+   "armor": 0,
+   "pierce": 2,
+   "min_range": 2,
+   "display": "Artillery",
+   "range": 10,
+   "sight": 6,
+   "reload": 180,
+   "sprite_index": "spr_artillery",
+   "icon_sprite": "spr_artillery_icon",
+   "cost": {
+    "oil": 120,
+    "iron": 100
+   },
+   "speed": 0.5,
+   "attack": 20,
+   "accuracy": 0.5
+  },
+  "b29": {
+   "melee": false,
+   "max_life": 500,
+   "sight": 8,
+   "aerial": true,
+   "display": "B29 Superfortress",
+   "range": 2,
+   "pierce": 5,
+   "reload": 180,
+   "turn_speed": 1.5,
+   "fuel_latency": 45,
+   "clip_size": 4,
+   "fuel_max": 100,
+   "pop": "get_pop_required(\"bomber\")",
+   "sprite_index": "spr_b29",
+   "icon_sprite": "spr_b29_icon",
+   "mask_index": "spr_64unit_mask",
+   "cost": {
+    "oil": 320,
+    "iron": 375
+   },
+   "speed": 1.75,
+   "attack": 200
+  },
+  "battleship": {
+   "melee": false,
+   "ship": true,
+   "max_life": 450,
+   "sight": 7,
+   "display": "Battleship",
+   "range": 7,
+   "pierce": 8,
+   "armor": 8,
+   "reload": 18,
+   "clip_size": 8,
+   "clip_reload": 145,
+   "pop": "get_pop_required(\"battleship\")",
+   "sprite_index": "spr_battleship",
+   "icon_sprite": "spr_battleship_icon",
+   "mask_index": "spr_100unitmask",
+   "cost": {
+    "wood": 250,
+    "iron": 280
+   },
+   "speed": 1,
+   "attack": 25,
+   "bullet_sprite": "spr_bullet_large"
+  },
+  "biplane": {
+   "melee": false,
+   "max_life": 80,
+   "sight": 6,
+   "range": 6,
+   "aerial": true,
+   "unit_type": "fighter",
+   "clip_reload": 120,
+   "clip_size": 5,
+   "display": "Biplane",
+   "reload": 5,
+   "pop": 2,
+   "fuel_latency": 20,
+   "fuel_max": 100,
+   "turn_speed": 2,
+   "sprite_index": "spr_biplane",
+   "icon_sprite": "spr_biplane_icon",
+   "mask_index": "spr_64unit_mask",
+   "cost": {
+    "oil": 70,
+    "iron": 120
+   },
+   "speed": 1.75,
+   "attack": 5
+  },
+  "bomber": {
+   "melee": false,
+   "max_life": 350,
+   "sight": 8,
+   "aerial": true,
+   "display": "Bomber",
+   "range": 2,
+   "pierce": 2,
+   "reload": 180,
+   "turn_speed": 1.5,
+   "fuel_latency": 30,
+   "clip_size": 2,
+   "fuel_max": 100,
+   "pop": "get_pop_required(\"bomber\")",
+   "sprite_index": "spr_bomber",
+   "icon_sprite": "spr_bomber_icon",
+   "mask_index": "spr_64unit_mask",
+   "cost": {
+    "oil": 125,
+    "iron": 350
+   },
+   "speed": 1.75,
+   "attack": 200
+  },
+  "camel": {
+   "melee": true,
+   "max_life": 30,
+   "sight": 3,
+   "display": "Camel",
+   "sprite_index": "spr_camel",
+   "icon_sprite": "spr_camel_icon",
+   "cost": {
+    "food": 50,
+    "oil": 30
+   },
+   "speed": 1.6,
+   "attack": 3
+  },
+  "camel corps": {
+   "melee": true,
+   "max_life": 70,
+   "armor": 1,
+   "pierce": 1,
+   "sight": 4,
+   "display": "Camel Corps",
+   "sprite_index": "spr_camel_corps",
+   "icon_sprite": "spr_camel_corps_icon",
+   "cost": {
+    "food": 50,
+    "oil": 30
+   },
+   "speed": 1.6,
+   "attack": 9
+  },
+  "cavalry": {
+   "melee": true,
+   "max_life": 35,
+   "sight": 4,
+   "display": "Cavalry",
+   "sprite_index": "spr_cavalry",
+   "icon_sprite": "spr_cavalry_icon",
+   "cost": {
+    "food": 80
+   },
+   "speed": 1.5,
+   "attack": 3
+  },
+  "cavalry2": {
+   "melee": true,
+   "max_life": 80,
+   "sight": 5,
+   "armor": 2,
+   "pierce": 1,
+   "display": "Cavalry",
+   "sprite_index": "spr_cavalry2",
+   "icon_sprite": "spr_cavalry2_icon",
+   "cost": {
+    "food": 80
+   },
+   "speed": 1.5,
+   "attack": 8
+  },
+  "cavalry3": {
+   "melee": true,
+   "max_life": 100,
+   "sight": 6,
+   "armor": 3,
+   "pierce": 2,
+   "display": "Heavy Cavalry",
+   "sprite_index": "spr_cavalry3",
+   "icon_sprite": "spr_cavalry3_icon",
+   "cost": {
+    "food": 80
+   },
+   "speed": 1.5,
+   "attack": 12
+  },
+  "civilian": {
+   "melee": true,
+   "display": "Civilian",
+   "max_life": 30,
+   "sight": 3,
+   "range": 1,
+   "reload": 60,
+   "max_carry": 10,
+   "sprite_index": "spr_civilian",
+   "icon_sprite": "spr_civilian_icon",
+   "team": "3 {control.military3+=1",
+   "cost": {
+    "food": 50
+   },
+   "speed": 1,
+   "attack": 2
+  },
+  "destroyer": {
+   "melee": false,
+   "ship": true,
+   "max_life": 200,
+   "sight": 6,
+   "display": "Destroyer",
+   "range": 6,
+   "pierce": 6,
+   "armor": 6,
+   "reload": 50,
+   "pop": "get_pop_required(\"battleship\")",
+   "sprite_index": "spr_destroyer",
+   "icon_sprite": "spr_destroyer_icon",
+   "mask_index": "spr_64unit_mask",
+   "cost": {
+    "wood": 80,
+    "iron": 40
+   },
+   "speed": 1.4,
+   "attack": 12,
+   "bullet_sprite": "spr_bullet_large"
+  },
+  "elite waffen": {
+   "melee": false,
+   "max_life": 90,
+   "armor": 1,
+   "pierce": 1,
+   "display": "Elite Waffen SS",
+   "sight": 3,
+   "range": 3,
+   "reload": 75,
+   "unit_type": "rifle",
+   "icon_sprite": "spr_elite_waffen_icon",
+   "sprite_index": "spr_waffen",
+   "cost": {
+    "food": 40,
+    "oil": 40
+   },
+   "speed": 0.9,
+   "attack": 13
+  },
+  "fighter": {
+   "melee": false,
+   "max_life": 180,
+   "sight": 6,
+   "pierce": 1,
+   "aerial": true,
+   "unit_type": "fighter",
+   "display": "Fighter",
+   "reload": 5,
+   "range": 6,
+   "clip_reload": 120,
+   "clip_size": 5,
+   "turn_speed": 2.6,
+   "fuel_latency": 25,
+   "fuel_max": 100,
+   "pop": 2,
+   "sprite_index": "spr_spitfire",
+   "icon_sprite": "spr_fighter_icon",
+   "mask_index": "spr_64unit_mask",
+   "cost": {
+    "oil": 70,
+    "iron": 120
+   },
+   "speed": 2.25,
+   "attack": 8
+  },
+  "fishing boat": {
+   "melee": true,
+   "ship": true,
+   "range": 1,
+   "max_carry": 15,
+   "reload": 60,
+   "max_life": 60,
+   "sight": 3,
+   "display": "Fishing Boat",
+   "sprite_index": "spr_fishing_boat",
+   "icon_sprite": "spr_fishing_boat_icon",
+   "mask_index": "spr_45unit_mask",
+   "team": "3 {control.military3+=1",
+   "cost": {
+    "wood": 70
+   },
+   "speed": 1,
+   "attack": 0
+  },
+  "flak": {
+   "melee": false,
+   "max_life": 220,
+   "armor": 2,
+   "pierce": 2,
+   "display": "Flak",
+   "range": 7,
+   "sight": 7,
+   "reload": 200,
+   "bullet_sprite": "spr_bullet_large",
+   "sprite_index": "spr_flak",
+   "icon_sprite": "spr_flak_icon",
+   "mask_index": "spr_45unit_mask",
+   "cost": {
+    "oil": 60,
+    "iron": 80
+   },
+   "speed": 0.5,
+   "attack": 90
+  },
+  "frigate": {
+   "melee": false,
+   "ship": true,
+   "max_life": 150,
+   "sight": 5,
+   "display": "Frigate",
+   "range": 5,
+   "pierce": 3,
+   "armor": 3,
+   "reload": 78,
+   "pop": "get_pop_required(\"frigate\")",
+   "sprite_index": "spr_frigate",
+   "icon_sprite": "spr_frigate_icon",
+   "mask_index": "spr_100unitmask",
+   "cost": {
+    "wood": 80,
+    "iron": 40
+   },
+   "speed": 1.2,
+   "attack": 7
+  },
+  "heavy bomber": {
+   "melee": false,
+   "max_life": 420,
+   "sight": 8,
+   "aerial": true,
+   "display": "Heavy Bomber",
+   "range": 2,
+   "pierce": 3,
+   "reload": 180,
+   "turn_speed": 1.5,
+   "fuel_latency": 40,
+   "clip_size": 3,
+   "fuel_max": 100,
+   "pop": "get_pop_required(\"bomber\")",
+   "sprite_index": "spr_heavy_bomber",
+   "icon_sprite": "spr_heavy_bomber_icon",
+   "mask_index": "spr_64unit_mask",
+   "type": "tech",
+   "cost": {
+    "oil": 125,
+    "iron": 350
+   },
+   "speed": 1.85,
+   "attack": 200
+  },
+  "heavy tank": {
+   "melee": false,
+   "max_life": 300,
+   "armor": 6,
+   "pierce": 6,
+   "display": "Heavy Tank",
+   "range": 5,
+   "sight": 5,
+   "bullet_sprite": "spr_bullet_large",
+   "reload": 180,
+   "sprite_index": "spr_heavy_tank",
+   "icon_sprite": "spr_heavy_tank_icon",
+   "mask_index": "spr_64unit_mask",
+   "unit_type": "tank",
+   "cost": {
+    "oil": 80,
+    "iron": 200
+   },
+   "speed": 0.5,
+   "attack": 30
+  },
+  "infantryman": {
+   "melee": false,
+   "max_life": 40,
+   "display": "Infantryman",
+   "sight": 3,
+   "range": 5,
+   "reload": 50,
+   "unit_type": "rifle",
+   "sprite_index": "spr_infantryman",
+   "icon_sprite": "spr_infantryman_icon",
+   "cost": {
+    "food": 40,
+    "oil": 20
+   },
+   "speed": 1,
+   "attack": 8
+  },
+  "janissary": {
+   "melee": false,
+   "max_life": 55,
+   "display": "Janissary",
+   "sight": 3,
+   "range": 3,
+   "reload": 112,
+   "unit_type": "rifle",
+   "sprite_index": "spr_janissary",
+   "icon_sprite": "spr_janissary_icon",
+   "cost": {
+    "food": 30,
+    "oil": 50
+   },
+   "speed": 1,
+   "attack": 18
+  },
+  "jet fighter": {
+   "melee": false,
+   "max_life": 220,
+   "sight": 6,
+   "pierce": 2,
+   "aerial": true,
+   "unit_type": "fighter",
+   "range": 6,
+   "display": "Jet Fighter",
+   "reload": 5,
+   "clip_reload": 100,
+   "clip_size": 5,
+   "turn_speed": 3.5,
+   "fuel_latency": 30,
+   "fuel_max": 100,
+   "pop": 2,
+   "sprite_index": "spr_jet_fighter",
+   "icon_sprite": "spr_jet_fighter_icon",
+   "mask_index": "spr_64unit_mask",
+   "cost": {
+    "oil": 70,
+    "iron": 120
+   },
+   "speed": 3,
+   "attack": 10
+  },
+  "light tank": {
+   "melee": false,
+   "max_life": 200,
+   "armor": 3,
+   "pierce": 3,
+   "display": "Light Tank",
+   "range": 4,
+   "sight": 4,
+   "bullet_sprite": "spr_bullet_large",
+   "reload": 90,
+   "unit_type": "tank",
+   "sprite_index": "spr_light_tank",
+   "icon_sprite": "spr_light_tank_icon",
+   "mask_index": "spr_45unit_mask",
+   "cost": {
+    "oil": 50,
+    "iron": 110
+   },
+   "speed": 0.6,
+   "attack": 14
+  },
+  "muscateer": {
+   "melee": false,
+   "max_life": 30,
+   "display": "Muscateer",
+   "sight": 3,
+   "range": 3,
+   "reload": 90,
+   "unit_type": "rifle",
+   "sprite_index": "spr_muscateer",
+   "icon_sprite": "spr_muscateer_icon",
+   "cost": {
+    "food": 40,
+    "oil": 20
+   },
+   "speed": 1,
+   "attack": 4
+  },
+  "ohka": {
+   "melee": false,
+   "max_life": 60,
+   "sight": 7,
+   "pierce": 1,
+   "aerial": true,
+   "display": "Ohka",
+   "range": 0,
+   "turn_speed": 1,
+   "fuel_latency": 10,
+   "fuel_max": 100,
+   "pop": 1,
+   "sprite_index": "spr_ohka",
+   "icon_sprite": "spr_ohka_icon",
+   "mask_index": "spr_64unit_mask",
+   "type": "unit",
+   "cost": {
+    "oil": 110,
+    "iron": 60
+   },
+   "speed": 2.5,
+   "attack": 150
+  },
+  "rifleman": {
+   "melee": false,
+   "max_life": 35,
+   "display": "Rifleman",
+   "sight": 3,
+   "range": 4,
+   "reload": 85,
+   "unit_type": "rifle",
+   "sprite_index": "spr_rifleman",
+   "icon_sprite": "spr_rifleman_icon",
+   "cost": {
+    "food": 40,
+    "oil": 20
+   },
+   "speed": 1,
+   "attack": 6
+  },
+  "royal janissary": {
+   "melee": false,
+   "max_life": 60,
+   "display": "Royal Janissary",
+   "sight": 3,
+   "range": 3,
+   "armor": 1,
+   "pierce": 1,
+   "reload": 104,
+   "unit_type": "rifle",
+   "sprite_index": "spr_royal_janissary",
+   "icon_sprite": "spr_royal_janissary_icon",
+   "cost": {
+    "food": 30,
+    "oil": 50
+   },
+   "speed": 1,
+   "attack": 24
+  },
+  "swordsman": {
+   "melee": true,
+   "max_life": 40,
+   "sight": 3,
+   "display": "Swordsman",
+   "sprite_index": "spr_swordsman",
+   "icon_sprite": "spr_swordsman_icon",
+   "cost": {
+    "food": 50
+   },
+   "speed": 1,
+   "attack": 3
+  },
+  "swordsman2": {
+   "melee": true,
+   "armor": 1,
+   "pierce": 1,
+   "max_life": 50,
+   "sight": 3,
+   "display": "Sword Master",
+   "sprite_index": "spr_swordsman2",
+   "icon_sprite": "spr_swordsman2_icon",
+   "cost": {
+    "food": 50
+   },
+   "speed": 1,
+   "attack": 8
+  },
+  "tank": {
+   "melee": false,
+   "max_life": 250,
+   "armor": 5,
+   "pierce": 5,
+   "display": "Tank",
+   "range": 5,
+   "sight": 5,
+   "bullet_sprite": "spr_bullet_large",
+   "reload": 180,
+   "sprite_index": "spr_tank",
+   "icon_sprite": "spr_tank_icon",
+   "mask_index": "spr_64unit_mask",
+   "unit_type": "tank",
+   "cost": {
+    "oil": 80,
+    "iron": 200
+   },
+   "speed": 0.5,
+   "attack": 24
+  },
+  "tiger tank": {
+   "melee": false,
+   "max_life": 380,
+   "armor": 6,
+   "pierce": 6,
+   "display": "Tiger I",
+   "range": 6,
+   "sight": 6,
+   "bullet_sprite": "spr_bullet_large",
+   "reload": 200,
+   "sprite_index": "spr_tiger_tank",
+   "icon_sprite": "spr_tiger_tank_icon",
+   "mask_index": "spr_64unit_mask",
+   "unit_type": "tank",
+   "cost": {
+    "oil": 150,
+    "iron": 280
+   },
+   "speed": 0.5,
+   "attack": 40
+  },
+  "tiger2 tank": {
+   "melee": false,
+   "max_life": 420,
+   "armor": 7,
+   "pierce": 7,
+   "display": "Tiger II",
+   "range": 6,
+   "sight": 6,
+   "bullet_sprite": "spr_bullet_large",
+   "reload": 190,
+   "sprite_index": "spr_tiger2_tank",
+   "icon_sprite": "spr_tiger_tank2_icon",
+   "mask_index": "spr_64unit_mask",
+   "unit_type": "tank",
+   "cost": {
+    "oil": 150,
+    "iron": 280
+   },
+   "speed": 0.5,
+   "attack": 45
+  },
+  "torpedo boat": {
+   "melee": false,
+   "ship": true,
+   "max_life": 175,
+   "sight": 6,
+   "display": "Torpedo Boat",
+   "range": 6,
+   "pierce": 4,
+   "armor": 4,
+   "reload": 60,
+   "pop": "get_pop_required(\"torpedo boat\")",
+   "sprite_index": "spr_torpedo_boat",
+   "icon_sprite": "spr_torpedo_boat_icon",
+   "mask_index": "spr_64unit_mask",
+   "cost": {
+    "wood": 80,
+    "iron": 40
+   },
+   "speed": 1.3,
+   "attack": 9
+  },
+  "waffen": {
+   "melee": false,
+   "max_life": 70,
+   "armor": 0,
+   "pierce": 0,
+   "display": "Waffen SS",
+   "sight": 3,
+   "range": 3,
+   "reload": 80,
+   "unit_type": "rifle",
+   "sprite_index": "spr_waffen",
+   "icon_sprite": "spr_waffen_icon",
+   "cost": {
+    "food": 40,
+    "oil": 40
+   },
+   "speed": 0.9,
+   "attack": 10
+  },
+  "yamato": {
+   "melee": false,
+   "ship": true,
+   "max_life": 600,
+   "sight": 7,
+   "display": "Yamato",
+   "range": 7,
+   "pierce": 10,
+   "armor": 10,
+   "reload": 13,
+   "clip_size": 10,
+   "clip_reload": 110,
+   "pop": "get_pop_required(\"yamato\")",
+   "sprite_index": "spr_yamato",
+   "icon_sprite": "spr_yamato_icon",
+   "mask_index": "spr_100unitmask",
+   "cost": {
+    "wood": 400,
+    "iron": 400
+   },
+   "speed": 0.9,
+   "attack": 30,
+   "bullet_sprite": "spr_bullet_large"
+  },
+  "transport ship": {
+   "type": "unit",
+   "display": "Transport Ship",
+   "sprite_index": "spr_transport_ship",
+   "icon_sprite": "spr_transport_ship_icon",
+   "max_life": 300,
+   "melee": false,
+   "ship": true,
+   "sight": 6,
+   "speed": 1.0,
+   "armor": 5,
+   "pierce": 5,
+   "capacity": 50,
+   "cost": {
+    "wood": 50,
+    "iron": 200
+   }
+  },
+  "artillery1": {
+   "melee": false,
+   "max_life": 40,
+   "armor": 0,
+   "pierce": 1,
+   "min_range": 2,
+   "display": "Artillery",
+   "range": 8,
+   "sight": 6,
+   "reload": 180,
+   "sprite_index": "spr_artillery1",
+   "icon_sprite": "spr_artillery1_icon",
+   "cost": {
+    "oil": 120,
+    "iron": 100
+   },
+   "speed": 0.5,
+   "attack": 12,
+   "accuracy": 0.34
+  }
+ },
+ "buildings": {
+  "aa tower": {
+   "type": "building",
+   "display": "Flak Tower",
+   "sprite_index": "spr_aa_tower",
+   "max_life": 600,
+   "melee": false,
+   "sight": 7,
+   "reload": 30,
+   "range": 7,
+   "icon_sprite": "spr_flak_tower_icon",
+   "mask_index": "spr_tower_mask",
+   "cost": {
+    "wood": 50,
+    "iron": 175
+   },
+   "attack": 12
+  },
+  "academy": {
+   "type": "building",
+   "display": "Academy",
+   "sprite_index": "spr_academy",
+   "icon_sprite": "spr_academy_icon",
+   "max_life": 800,
+   "melee": false,
+   "sight": 4,
+   "cost": {
+    "wood": 175
+   }
+  },
+  "airbase": {
+   "type": "building",
+   "display": "Airport",
+   "sprite_index": "spr_airbase",
+   "max_life": 800,
+   "melee": false,
+   "sight": 4,
+   "icon_sprite": "spr_airbase_icon",
+   "cost": {
+    "wood": 200,
+    "oil": 50
+   }
+  },
+  "barracks": {
+   "type": "building",
+   "display": "Barracks",
+   "sprite_index": "spr_barracks",
+   "icon_sprite": "spr_barracks_icon",
+   "max_life": 800,
+   "melee": false,
+   "sight": 4,
+   "cost": {
+    "wood": 150
+   }
+  },
+  "base": {
+   "type": "building",
+   "max_life": 1500,
+   "melee": false,
+   "sight": 6,
+   "icon_sprite": "spr_base_icon",
+   "cost": {
+    "wood": 275,
+    "iron": 100
+   }
+  },
+  "factory": {
+   "type": "building",
+   "display": "Factory",
+   "sprite_index": "spr_factory",
+   "max_life": 800,
+   "melee": false,
+   "sight": 4,
+   "icon_sprite": "spr_factory_icon",
+   "cost": {
+    "wood": 200
+   }
+  },
+  "farm": {
+   "type": "building",
+   "display": "Farm",
+   "sprite_index": "spr_farm",
+   "icon_sprite": "spr_farm_icon",
+   "max_life": 200,
+   "melee": false,
+   "amount": 150,
+   "sight": 1,
+   "drop_off": false,
+   "occupied": -1,
+   "solid": false,
+   "cost": {
+    "wood": 40
+   }
+  },
+  "fortress": {
+   "type": "building",
+   "display": "Fortress",
+   "sprite_index": "spr_fortress",
+   "max_life": 2000,
+   "melee": false,
+   "sight": 8,
+   "reload": 60,
+   "range": 8,
+   "icon_sprite": "spr_fortress_icon",
+   "cost": {
+    "iron": 500
+   },
+   "attack": 5
+  },
+  "house": {
+   "type": "building",
+   "display": "House",
+   "sprite_index": "spr_house",
+   "icon_sprite": "spr_house_icon",
+   "max_life": 400,
+   "melee": false,
+   "sight": 2,
+   "cost": {
+    "wood": 20
+   }
+  },
+  "market": {
+   "type": "building",
+   "display": "Market",
+   "sprite_index": "spr_market",
+   "icon_sprite": "spr_market_icon",
+   "max_life": 800,
+   "melee": false,
+   "sight": 4,
+   "cost": {
+    "wood": 100
+   }
+  },
+  "nuclear reactor": {
+   "type": "building",
+   "display": "Nuclear Reactor",
+   "sprite_index": "spr_nuclear_reactor",
+   "icon_sprite": "spr_nuclear_reactor_icon",
+   "max_life": 1000,
+   "melee": false,
+   "sight": 4,
+   "depth": "-y/room_height-0.1",
+   "cost": {
+    "wood": 200,
+    "iron": 200
+   }
+  },
+  "palisade": {
+   "type": "building",
+   "display": "Palisade Wall",
+   "sprite_index": "spr_palisade",
+   "icon_sprite": "spr_palisade_icon",
+   "drop_off": false,
+   "max_life": 150,
+   "melee": false,
+   "sight": 1,
+   "cost": {
+    "wood": 3
+   }
+  },
+  "refinery": {
+   "type": "building",
+   "display": "Refinery",
+   "sprite_index": "spr_refinery",
+   "icon_sprite": "spr_refinery_icon",
+   "max_life": 400,
+   "melee": false,
+   "sight": 2,
+   "cost": {
+    "wood": 80
+   }
+  },
+  "shipyard": {
+   "type": "building",
+   "display": "Shipyard",
+   "sprite_index": "spr_shipyard",
+   "icon_sprite": "spr_shipyard_icon",
+   "max_life": 800,
+   "melee": false,
+   "sight": 4,
+   "cost": {
+    "wood": 150
+   }
+  },
+  "tower": {
+   "type": "building",
+   "display": "Tower",
+   "sprite_index": "spr_tower",
+   "max_life": 600,
+   "melee": false,
+   "sight": 7,
+   "reload": 30,
+   "range": 7,
+   "icon_sprite": "spr_tower_icon",
+   "mask_index": "spr_tower_mask",
+   "cost": {
+    "wood": 50,
+    "iron": 175
+   },
+   "attack": 5
+  },
+  "university": {
+   "type": "building",
+   "display": "University",
+   "sprite_index": "spr_university",
+   "icon_sprite": "spr_university_icon",
+   "max_life": 500,
+   "melee": false,
+   "sight": 4,
+   "cost": {
+    "wood": 200
+   }
+  },
+  "outpost": {
+   "type": "building",
+   "display": "Outpost",
+   "sprite_index": "spr_outpost_war_era",
+   "max_life": 500,
+   "melee": false,
+   "sight": 7,
+   "icon_sprite": "spr_outpost_icon",
+   "armor": 1,
+   "pierce": 1,
+   "cost": {
+    "wood": 25,
+    "iron": 5
+   }
+  }
+ },
+ "techs": {
+  "alloys": {
+   "icon_sprite": "spr_metal_alloy_icon",
+   "type": "tech",
+   "display": "Alloys",
+   "cost": {
+    "food": 150,
+    "oil": 75
+   }
+  },
+  "assault rifle": {
+   "icon_sprite": "spr_assault_rifle_icon",
+   "type": "tech",
+   "display": "Assault Rifle",
+   "cost": {
+    "food": 300,
+    "oil": 200
+   }
+  },
+  "atomic bomb": {
+   "icon_sprite": "spr_atomic_bomb_icon",
+   "type": "tech",
+   "display": "Atomic Bomb",
+   "cost": {
+    "iron": 200
+   }
+  },
+  "ballistics": {
+   "icon_sprite": "spr_ballistics_icon",
+   "type": "tech",
+   "display": "Ballistics",
+   "cost": {
+    "wood": 300,
+    "oil": 250
+   }
+  },
+  "battleship upgrade": {
+   "icon_sprite": "spr_battleship_upgrade_icon",
+   "type": "tech",
+   "display": "Battleship Upgrade",
+   "cost": {
+    "food": 500,
+    "oil": 550
+   }
+  },
+  "beneficiation": {
+   "icon_sprite": "spr_beneficiation_icon",
+   "type": "tech",
+   "display": "Beneficiation",
+   "cost": {
+    "food": 200,
+    "wood": 100
+   }
+  },
+  "binoculars": {
+   "icon_sprite": "spr_binoculars_icon",
+   "type": "tech",
+   "display": "Binoculars",
+   "cost": {
+    "oil": 25
+   }
+  },
+  "blowback reload": {
+   "icon_sprite": "spr_blowback_operation_icon",
+   "type": "tech",
+   "display": "Blowback Reload",
+   "cost": {
+    "food": 300,
+    "wood": 250
+   }
+  },
+  "bolt action rifle": {
+   "icon_sprite": "spr_bolt_action_rifle_icon",
+   "type": "tech",
+   "display": "Bolt-action Rifle",
+   "cost": {
+    "food": 100,
+    "oil": 50
+   }
+  },
+  "camel corps upgrade": {
+   "cost": {
+    "food": 400,
+    "oil": 800
+   }
+  },
+  "cavalry2 upgrade": {
+   "cost": {
+    "food": 250,
+    "oil": 250
+   }
+  },
+  "cavalry3 upgrade": {
+   "icon_sprite": "spr_cavalry3_upgrade_icon",
+   "type": "tech",
+   "display": "Upgrade to Heavy Cavalry",
+   "cost": {
+    "food": 300,
+    "oil": 300
+   }
+  },
+  "cavalry3 upgrade icon": {
+   "cost": {
+    "food": 1100,
+    "oil": 700
+   }
+  },
+  "composite plane armor": {
+   "icon_sprite": "spr_composite_plane_armor_icon",
+   "type": "tech",
+   "display": "Composite Plane Armor",
+   "cost": {
+    "food": 450,
+    "oil": 250
+   }
+  },
+  "destroyer upgrade": {
+   "icon_sprite": "spr_destroyer_upgrade_icon",
+   "type": "tech",
+   "display": "Destroyer Upgrade",
+   "cost": {
+    "food": 420,
+    "oil": 300
+   }
+  },
+  "diesel engine": {
+   "icon_sprite": "spr_diesel_engine_icon",
+   "type": "tech",
+   "display": "Diesel Engine",
+   "cost": {
+    "food": 400,
+    "oil": 300
+   }
+  },
+  "electric arc furnace": {
+   "icon_sprite": "spr_electric_arc_furnace_icon",
+   "type": "tech",
+   "display": "Electric Arc Furnace",
+   "cost": {
+    "food": 300,
+    "oil": 200
+   }
+  },
+  "electric drill": {
+   "icon_sprite": "spr_electric_drill_icon",
+   "type": "tech",
+   "display": "Electric drill",
+   "cost": {
+    "food": 100,
+    "wood": 75
+   }
+  },
+  "elite waffen upgrade": {
+   "icon_sprite": "spr_elite_waffen_upgrade_icon",
+   "type": "tech",
+   "display": "Upgrade to Elite Waffen SS",
+   "cost": {
+    "food": 600,
+    "oil": 450
+   }
+  },
+  "fertilizer": {
+   "icon_sprite": "spr_fertilizer_icon",
+   "type": "tech",
+   "display": "Fertilizer",
+   "cost": {
+    "food": 200,
+    "wood": 100
+   }
+  },
+  "fighter upgrade": {
+   "icon_sprite": "spr_fighter_upgrade_icon",
+   "type": "tech",
+   "display": "Upgrade Fighter",
+   "cost": {
+    "food": 250,
+    "oil": 150
+   }
+  },
+  "flak tower upgrade": {
+   "icon_sprite": "spr_flak_tower_upgrade_icon",
+   "type": "tech",
+   "display": "Upgrade to Flak Tower",
+   "cost": {
+    "food": 500,
+    "iron": 350
+   }
+  },
+  "flak upgrade": {
+   "cost": {
+    "food": 350,
+    "oil": 350
+   }
+  },
+  "fracking": {
+   "icon_sprite": "spr_fracking_icon",
+   "type": "tech",
+   "display": "Fracking",
+   "cost": {
+    "food": 200,
+    "wood": 100
+   }
+  },
+  "gasoline": {
+   "icon_sprite": "spr_gasoline_icon",
+   "type": "tech",
+   "display": "Gasoline",
+   "cost": {
+    "food": 100,
+    "oil": 150
+   }
+  },
+  "heavy bomber upgrade": {
+   "icon_sprite": "spr_heavy_bomber_upgrade_icon",
+   "type": "tech",
+   "display": "Heavy Bomber Upgrade",
+   "cost": {
+    "food": 250,
+    "oil": 250
+   }
+  },
+  "heavy tank upgrade": {
+   "icon_sprite": "spr_heavy_tank_upgrade_icon",
+   "type": "tech",
+   "display": "Upgrade to Heavy Tank",
+   "cost": {
+    "food": 800,
+    "oil": 500
+   }
+  },
+  "horse wagon": {
+   "icon_sprite": "spr_horsewagon_icon",
+   "type": "tech",
+   "display": "Horse Wagon",
+   "cost": {
+    "food": 175,
+    "wood": 50
+   }
+  },
+  "imports": {
+   "icon_sprite": "spr_imports_icon",
+   "type": "tech",
+   "display": "Trade Agreement",
+   "cost": {
+    "food": 200,
+    "oil": 100
+   }
+  },
+  "industrial": {
+   "cost": {
+    "food": 500
+   }
+  },
+  "infantryman upgrade": {
+   "cost": {
+    "food": 300,
+    "oil": 300
+   }
+  },
+  "irrigation": {
+   "icon_sprite": "spr_irrigation_icon",
+   "type": "tech",
+   "display": "Irrigation",
+   "cost": {
+    "food": 75,
+    "wood": 75
+   }
+  },
+  "jet engine": {
+   "icon_sprite": "spr_jet_engine_icon",
+   "type": "tech",
+   "display": "Jet Engine",
+   "cost": {
+    "food": 300,
+    "oil": 300
+   }
+  },
+  "jet fighter upgrade": {
+   "icon_sprite": "spr_jet_fighter_upgrade_icon",
+   "type": "tech",
+   "display": "Upgrade Jet Fighter",
+   "cost": {
+    "food": 300,
+    "oil": 250
+   }
+  },
+  "leather": {
+   "icon_sprite": "spr_leather_icon",
+   "type": "tech",
+   "display": "Uniform",
+   "cost": {
+    "oil": 50
+   }
+  },
+  "mobile sawmill": {
+   "icon_sprite": "spr_mobile_sawmill_icon",
+   "type": "tech",
+   "display": "Mobile Sawmill",
+   "cost": {
+    "food": 200,
+    "wood": 150
+   }
+  },
+  "nuclear physics": {
+   "icon_sprite": "spr_nuclear_physics_icon",
+   "type": "tech",
+   "display": "Nuclear Physics",
+   "cost": {
+    "food": 300,
+    "oil": 200
+   }
+  },
+  "pesticide": {
+   "icon_sprite": "spr_pesticide_icon",
+   "type": "tech",
+   "display": "Pesticide",
+   "cost": {
+    "food": 300,
+    "oil": 200
+   }
+  },
+  "power saw": {
+   "icon_sprite": "spr_power_saw_icon",
+   "type": "tech",
+   "display": "Power Saw",
+   "cost": {
+    "food": 50,
+    "wood": 50
+   }
+  },
+  "refined steel": {
+   "icon_sprite": "spr_refined_steel_icon",
+   "type": "tech",
+   "display": "Refined Steel",
+   "cost": {
+    "food": 100
+   }
+  },
+  "rifleman upgrade": {
+   "icon_sprite": "spr_rifleman_upgrade_icon",
+   "type": "tech",
+   "display": "Rifleman",
+   "cost": {
+    "food": 150,
+    "oil": 125
+   }
+  },
+  "royal janissary upgrade": {
+   "cost": {
+    "food": 600,
+    "oil": 1000
+   }
+  },
+  "scientific": {
+   "cost": {
+    "food": 1000,
+    "oil": 800
+   }
+  },
+  "semi automatic rifle": {
+   "icon_sprite": "spr_semi_automatic_rifle_icon",
+   "type": "tech",
+   "display": "Semi-automatic Rifle",
+   "cost": {
+    "food": 200,
+    "oil": 100
+   }
+  },
+  "smelting": {
+   "icon_sprite": "spr_smelting_icon",
+   "type": "tech",
+   "display": "Smelting",
+   "cost": {
+    "iron": 150
+   }
+  },
+  "soldier": {
+   "cost": {
+    "food": 50
+   }
+  },
+  "steel frame": {
+   "icon_sprite": "spr_steel_frame_icon",
+   "type": "tech",
+   "display": "Steel Frame",
+   "cost": {
+    "food": 200,
+    "oil": 200
+   }
+  },
+  "steel plane armor": {
+   "icon_sprite": "spr_steel_plane_armor_icon",
+   "type": "tech",
+   "display": "Steel Plane Armor",
+   "cost": {
+    "food": 250,
+    "oil": 100
+   }
+  },
+  "swordsman2 upgrade": {
+   "cost": {
+    "food": 140,
+    "oil": 60
+   },
+   "display": "Swordmastery",
+   "icon_sprite": "spr_swordsman_upgrade_icon"
+  },
+  "synthetic fuel": {
+   "icon_sprite": "spr_synthetic_fuel_icon",
+   "type": "tech",
+   "display": "Synthetic Fuel",
+   "cost": {
+    "food": 150,
+    "oil": 300
+   }
+  },
+  "tiger2 tank upgrade": {
+   "icon_sprite": "spr_tiger2_tank_upgrade_icon",
+   "type": "tech",
+   "display": "Tiger II Upgrade",
+   "cost": {
+    "food": 1100,
+    "oil": 650
+   }
+  },
+  "torpedo boat upgrade": {
+   "icon_sprite": "spr_torpedo_boat_upgrade_icon",
+   "type": "tech",
+   "display": "Torpedo Boat Upgrade",
+   "cost": {
+    "food": 200,
+    "oil": 100
+   }
+  },
+  "vehicle": {
+   "icon_sprite": "spr_vehicle_icon",
+   "type": "tech",
+   "display": "Tractor",
+   "cost": {
+    "food": 250,
+    "oil": 100
+   }
+  },
+  "war": {
+   "cost": {
+    "food": 800,
+    "oil": 200
+   }
+  },
+  "uniform": {
+   "icon_sprite": "spr_leather_icon",
+   "type": "tech",
+   "display": "Uniform",
+   "cost": {
+    "oil": 50
+   }
+  },
+  "hydrodynamics": {
+   "icon_sprite": "spr_hydrodynamics_icon",
+   "type": "tech",
+   "display": "Hydrodynamics",
+   "cost": {
+    "food": 200,
+    "iron": 50
+   }
+  },
+  "naval armour": {
+   "icon_sprite": "spr_naval_armour_icon",
+   "type": "tech",
+   "display": "Naval Armour",
+   "cost": {
+    "iron": 150
+   }
+  },
+  "trade agreement": {
+   "icon_sprite": "spr_imports_icon",
+   "type": "tech",
+   "display": "Trade Agreement",
+   "cost": {
+    "food": 200,
+    "oil": 100
+   }
+  },
+  "artillery upgrade": {
+   "icon_sprite": "spr_artillery_upgrade",
+   "type": "tech",
+   "display": "Artillery Upgrade",
+   "cost": {
+    "food": 450,
+    "iron": 100
+   }
+  }
+ },
+ "ages": [
+  "industrial",
+  "interwar",
+  "war",
+  "scientific"
+ ],
+ "ageCosts": {
+  "industrial": {
+   "food": 500
+  },
+  "war": {
+   "food": 800,
+   "oil": 200
+  },
+  "scientific": {
+   "food": 1000,
+   "oil": 800
+  }
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "base": [],
+ "barracks": [
+  "semi automatic rifle",
+  "bolt action rifle",
+  "infantryman upgrade",
+  "rifleman upgrade",
+  "assault rifle",
+  "artillery upgrade",
+  "heavy artillery upgrade"
+ ],
+ "academy": [
+  "camel corps upgrade",
+  "cavalry2 upgrade",
+  "cavalry3 upgrade",
+  "swordsman2 upgrade"
+ ],
+ "airbase": [
+  "composite plane armor",
+  "fighter upgrade",
+  "heavy bomber upgrade",
+  "steel plane armor",
+  "jet fighter upgrade",
+  "atomic bomb"
+ ],
+ "shipyard": [
+  "battleship upgrade",
+  "destroyer upgrade",
+  "torpedo boat upgrade",
+  "hydrodynamics",
+  "naval armour",
+  "aircraft carrier upgrade"
+ ],
+ "factory": [
+  "blowback reload",
+  "diesel engine",
+  "heavy tank upgrade",
+  "flak upgrade"
+ ],
+ "refinery": [
+  "alloys",
+  "electric arc furnace",
+  "refined steel"
+ ],
+ "university": [
+  "ballistics",
+  "beneficiation",
+  "electric drill",
+  "fracking",
+  "gasoline",
+  "jet engine",
+  "smelting",
+  "steel frame",
+  "synthetic fuel",
+  "nuclear physics",
+  "flak tower upgrade",
+  "radar"
+ ],
+ "market": [
+  "trade agreement",
+  "fertilizer",
+  "horse wagon",
+  "irrigation",
+  "mobile sawmill",
+  "pesticide",
+  "power saw"
+ ]
+}

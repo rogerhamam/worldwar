@@ -1,0 +1,20 @@
+build/
+build_final/
+build-release/
+compile_commands.json
+*.bmp
+*.exe
+.vs/
+.vscode/
+
+# Runtime / vendored / release artifacts -- kept out of the source repo
+# (assets + data live in the worldwar_native repo; deps are fetched).
+/dist/
+/deps/
+/release/
+__pycache__/
+*.pyc
+*.obj
+.DS_Store
+Thumbs.db
+build-assert/

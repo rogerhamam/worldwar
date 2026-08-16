@@ -1,0 +1,747 @@
+[
+ {
+  "col": 0,
+  "row": 0,
+  "name": "base"
+ },
+ {
+  "col": 0,
+  "row": 1,
+  "name": "civilian"
+ },
+ {
+  "col": 1,
+  "row": 1,
+  "name": "leather",
+  "child": false
+ },
+ {
+  "col": 2,
+  "row": 1,
+  "name": "camel",
+  "child": false
+ },
+ {
+  "col": 2,
+  "row": 2,
+  "name": "camel corps",
+  "child": false
+ },
+ {
+  "col": 3,
+  "row": 0,
+  "name": "academy"
+ },
+ {
+  "col": 3,
+  "row": 1,
+  "name": "swordsman",
+  "older_sibling": false
+ },
+ {
+  "col": 3,
+  "row": 2,
+  "name": "swordsman2",
+  "child": false,
+  "older_sibling": false
+ },
+ {
+  "col": 4,
+  "row": 1,
+  "name": "cavalry"
+ },
+ {
+  "col": 4,
+  "row": 2,
+  "name": "cavalry2",
+  "older_sibling": false
+ },
+ {
+  "col": 4,
+  "row": 3,
+  "name": "through"
+ },
+ {
+  "col": 4,
+  "row": 4,
+  "name": "cavalry3"
+ },
+ {
+  "col": 6,
+  "row": 1,
+  "name": "artillery1",
+  "child": false
+ },
+ {
+  "col": 6,
+  "row": 2,
+  "name": "artillery",
+  "child": false
+ },
+ {
+  "col": 6,
+  "row": 3,
+  "name": "through",
+  "child": false
+ },
+ {
+  "col": 6,
+  "row": 4,
+  "name": "heavy artillery",
+  "child": false,
+  "older_sibling": false
+ },
+ {
+  "col": 7,
+  "row": 0,
+  "name": "barracks"
+ },
+ {
+  "col": 7,
+  "row": 1,
+  "name": "muscateer",
+  "older_sibling": false
+ },
+ {
+  "col": 7,
+  "row": 2,
+  "name": "rifleman",
+  "older_sibling": false
+ },
+ {
+  "col": 7,
+  "row": 3,
+  "name": "through",
+  "child": false
+ },
+ {
+  "col": 7,
+  "row": 4,
+  "name": "infantryman",
+  "child": false
+ },
+ {
+  "col": 8,
+  "row": 0,
+  "name": "through",
+  "parent": false
+ },
+ {
+  "col": 8,
+  "row": 1,
+  "name": "binoculars",
+  "parent": false,
+  "child": false
+ },
+ {
+  "col": 8,
+  "row": 2,
+  "name": "bolt action rifle",
+  "child": false
+ },
+ {
+  "col": 8,
+  "row": 3,
+  "name": "through",
+  "child": false,
+  "older_sibling": false
+ },
+ {
+  "col": 8,
+  "row": 4,
+  "name": "semi automatic rifle",
+  "child": false,
+  "older_sibling": false
+ },
+ {
+  "col": 8,
+  "row": 5,
+  "name": "through"
+ },
+ {
+  "col": 8,
+  "row": 6,
+  "name": "assault rifle"
+ },
+ {
+  "col": 9,
+  "row": 0,
+  "name": "through",
+  "child": false
+ },
+ {
+  "col": 9,
+  "row": 1,
+  "name": "through",
+  "older_sibling": false
+ },
+ {
+  "col": 9,
+  "row": 2,
+  "name": "through",
+  "older_sibling": false
+ },
+ {
+  "col": 9,
+  "row": 3,
+  "name": "through",
+  "older_sibling": false
+ },
+ {
+  "col": 9,
+  "row": 4,
+  "name": "blowback reload",
+  "older_sibling": false
+ },
+ {
+  "col": 10,
+  "row": 0,
+  "name": "house",
+  "child": false,
+  "older_sibling": false
+ },
+ {
+  "col": 11,
+  "row": 0,
+  "name": "refinery",
+  "older_sibling": false
+ },
+ {
+  "col": 11,
+  "row": 1,
+  "name": "refined steel"
+ },
+ {
+  "col": 11,
+  "row": 2,
+  "name": "alloys"
+ },
+ {
+  "col": 11,
+  "row": 3,
+  "name": "through"
+ },
+ {
+  "col": 11,
+  "row": 4,
+  "name": "electric arc furnace"
+ },
+ {
+  "col": 13,
+  "row": 0,
+  "name": "farm"
+ },
+ {
+  "col": 13,
+  "row": 2,
+  "name": "factory"
+ },
+ {
+  "col": 13,
+  "row": 3,
+  "name": "aa gun"
+ },
+ {
+  "col": 13,
+  "row": 4,
+  "name": "flak",
+  "child": false
+ },
+ {
+  "col": 13,
+  "row": 5,
+  "name": "tiger tank",
+  "child": false
+ },
+ {
+  "col": 13,
+  "row": 6,
+  "name": "tiger2 tank",
+  "child": false
+ },
+ {
+  "col": 14,
+  "row": 2,
+  "name": "through",
+  "parent": false
+ },
+ {
+  "col": 14,
+  "row": 3,
+  "name": "light tank",
+  "parent": false,
+  "child": false
+ },
+ {
+  "col": 14,
+  "row": 4,
+  "name": "tank",
+  "child": false,
+  "older_sibling": false
+ },
+ {
+  "col": 14,
+  "row": 5,
+  "name": "through",
+  "older_sibling": false
+ },
+ {
+  "col": 14,
+  "row": 6,
+  "name": "heavy tank",
+  "older_sibling": false
+ },
+ {
+  "col": 15,
+  "row": 2,
+  "name": "through"
+ },
+ {
+  "col": 15,
+  "row": 3,
+  "name": "through",
+  "older_sibling": false
+ },
+ {
+  "col": 15,
+  "row": 4,
+  "name": "diesel engine",
+  "older_sibling": false
+ },
+ {
+  "col": 17,
+  "row": 2,
+  "name": "airbase"
+ },
+ {
+  "col": 17,
+  "row": 3,
+  "name": "biplane"
+ },
+ {
+  "col": 17,
+  "row": 4,
+  "name": "fighter",
+  "child": false
+ },
+ {
+  "col": 17,
+  "row": 5,
+  "name": "through",
+  "child": false
+ },
+ {
+  "col": 17,
+  "row": 6,
+  "name": "jet fighter",
+  "child": false
+ },
+ {
+  "col": 18,
+  "row": 4,
+  "name": "bomber",
+  "child": false,
+  "older_sibling": false
+ },
+ {
+  "col": 18,
+  "row": 5,
+  "name": "through",
+  "child": false,
+  "older_sibling": false
+ },
+ {
+  "col": 18,
+  "row": 6,
+  "name": "heavy bomber",
+  "child": false,
+  "older_sibling": false
+ },
+ {
+  "col": 19,
+  "row": 4,
+  "name": "steel plane armor",
+  "child": false,
+  "older_sibling": false
+ },
+ {
+  "col": 19,
+  "row": 5,
+  "name": "through",
+  "older_sibling": false
+ },
+ {
+  "col": 19,
+  "row": 6,
+  "name": "composite plane armor",
+  "child": false,
+  "older_sibling": false
+ },
+ {
+  "col": 20,
+  "row": 4,
+  "name": "ohka",
+  "older_sibling": false
+ },
+ {
+  "col": 20,
+  "row": 6,
+  "name": "atomic bomb",
+  "child": false,
+  "older_sibling": false
+ },
+ {
+  "col": 21,
+  "row": 6,
+  "name": "b29",
+  "older_sibling": false
+ },
+ {
+  "col": 22,
+  "row": 2,
+  "name": "university"
+ },
+ {
+  "col": 22,
+  "row": 3,
+  "name": "steel frame",
+  "parent": false
+ },
+ {
+  "col": 22,
+  "row": 4,
+  "name": "ballistics",
+  "child": false
+ },
+ {
+  "col": 23,
+  "row": 2,
+  "name": "through",
+  "parent": false
+ },
+ {
+  "col": 23,
+  "row": 3,
+  "name": "electric drill"
+ },
+ {
+  "col": 23,
+  "row": 4,
+  "name": "fracking",
+  "child": false,
+  "older_sibling": false
+ },
+ {
+  "col": 23,
+  "row": 6,
+  "name": "jet engine",
+  "child": false
+ },
+ {
+  "col": 24,
+  "row": 2,
+  "name": "through",
+  "parent": false
+ },
+ {
+  "col": 24,
+  "row": 3,
+  "name": "smelting",
+  "child": false
+ },
+ {
+  "col": 24,
+  "row": 4,
+  "name": "beneficiation",
+  "child": false,
+  "older_sibling": false
+ },
+ {
+  "col": 24,
+  "row": 6,
+  "name": "nuclear physics",
+  "child": false,
+  "older_sibling": false
+ },
+ {
+  "col": 25,
+  "row": 2,
+  "name": "through"
+ },
+ {
+  "col": 25,
+  "row": 3,
+  "name": "through",
+  "older_sibling": false
+ },
+ {
+  "col": 25,
+  "row": 4,
+  "name": "gasoline",
+  "older_sibling": false
+ },
+ {
+  "col": 25,
+  "row": 5,
+  "name": "through"
+ },
+ {
+  "col": 25,
+  "row": 6,
+  "name": "synthetic fuel",
+  "older_sibling": false
+ },
+ {
+  "col": 26,
+  "row": 4,
+  "name": "flak tower upgrade"
+ },
+ {
+  "col": 27,
+  "row": 4,
+  "name": "radar",
+  "parent": false,
+  "child": false,
+  "older_sibling": false
+ },
+ {
+  "col": 28,
+  "row": 2,
+  "name": "tower"
+ },
+ {
+  "col": 28,
+  "row": 3,
+  "name": "through"
+ },
+ {
+  "col": 28,
+  "row": 4,
+  "name": "aa tower"
+ },
+ {
+  "col": 28,
+  "row": 6,
+  "name": "nuclear reactor"
+ },
+ {
+  "col": 30,
+  "row": 0,
+  "name": "market"
+ },
+ {
+  "col": 30,
+  "row": 1,
+  "name": "irrigation",
+  "child": false
+ },
+ {
+  "col": 30,
+  "row": 2,
+  "name": "fertilizer",
+  "child": false
+ },
+ {
+  "col": 30,
+  "row": 3,
+  "name": "through",
+  "child": false
+ },
+ {
+  "col": 30,
+  "row": 4,
+  "name": "pesticide",
+  "child": false
+ },
+ {
+  "col": 31,
+  "row": 0,
+  "name": "through"
+ },
+ {
+  "col": 31,
+  "row": 1,
+  "name": "through",
+  "older_sibling": false
+ },
+ {
+  "col": 31,
+  "row": 2,
+  "name": "horse wagon",
+  "older_sibling": false
+ },
+ {
+  "col": 31,
+  "row": 3,
+  "name": "through",
+  "child": false,
+  "older_sibling": false
+ },
+ {
+  "col": 31,
+  "row": 4,
+  "name": "vehicle",
+  "child": false,
+  "older_sibling": false
+ },
+ {
+  "col": 32,
+  "row": 2,
+  "name": "power saw"
+ },
+ {
+  "col": 32,
+  "row": 3,
+  "name": "through",
+  "older_sibling": false
+ },
+ {
+  "col": 32,
+  "row": 4,
+  "name": "mobile sawmill",
+  "older_sibling": false
+ },
+ {
+  "col": 33,
+  "row": 2,
+  "name": "imports",
+  "child": false
+ },
+ {
+  "col": 34,
+  "row": 0,
+  "name": "shipyard"
+ },
+ {
+  "col": 34,
+  "row": 1,
+  "name": "fishing boat",
+  "parent": false
+ },
+ {
+  "col": 34,
+  "row": 2,
+  "name": "hydrodynamics",
+  "child": false,
+  "older_sibling": false
+ },
+ {
+  "col": 35,
+  "row": 1,
+  "name": "frigate"
+ },
+ {
+  "col": 35,
+  "row": 2,
+  "name": "torpedo boat",
+  "older_sibling": false
+ },
+ {
+  "col": 35,
+  "row": 3,
+  "name": "through"
+ },
+ {
+  "col": 35,
+  "row": 4,
+  "name": "destroyer",
+  "child": false
+ },
+ {
+  "col": 36,
+  "row": 1,
+  "name": "transport ship"
+ },
+ {
+  "col": 36,
+  "row": 4,
+  "name": "battleship",
+  "older_sibling": false
+ },
+ {
+  "col": 36,
+  "row": 6,
+  "name": "yamato"
+ },
+ {
+  "col": 38,
+  "row": 4,
+  "name": "fortress"
+ },
+ {
+  "col": 41,
+  "row": 6,
+  "name": "emergency fighter program",
+  "child": false,
+  "parent": false,
+  "older_sibling": false
+ },
+ {
+  "col": 41,
+  "row": 6,
+  "name": "meiji restoration",
+  "child": false,
+  "parent": false,
+  "older_sibling": false
+ },
+ {
+  "col": 40,
+  "row": 6,
+  "name": "conscription",
+  "child": false,
+  "older_sibling": false
+ },
+ {
+  "col": 39,
+  "row": 6,
+  "name": "ballistic missile",
+  "older_sibling": false
+ },
+ {
+  "col": 38,
+  "row": 5,
+  "name": "unique unit",
+  "child": false
+ },
+ {
+  "col": 38,
+  "row": 6,
+  "name": "unique unit elite",
+  "child": false
+ },
+ {
+  "col": 41,
+  "row": 6,
+  "name": "naval hegemony",
+  "parent": false,
+  "child": false,
+  "older_sibling": false
+ },
+ {
+  "col": 37,
+  "row": 4,
+  "name": "aircraft carrier",
+  "older_sibling": false
+ },
+ {
+  "col": 41,
+  "row": 6,
+  "name": "420mm mortar",
+  "child": false,
+  "parent": false,
+  "older_sibling": false
+ },
+ {
+  "col": 37,
+  "row": 6,
+  "name": "aircraft carrier2",
+  "older_sibling": false,
+  "child": false
+ },
+ {
+  "col": 37,
+  "row": 5,
+  "name": "through",
+  "child": false
+ }
+]

@@ -1,0 +1,88 @@
+[
+ {
+  "version": "2.14.0",
+  "title": "Big Performance & Crash Fix",
+  "lines": [
+   "GENERAL:",
+   "- MAJOR performance fix: the game now ships as an OPTIMISED build (roughly 5x faster simulation) with a rewritten pathfinding routine, so heavy mid-battle slowdowns are far smaller.",
+   "- Fixed a freeze/crash: under extreme load the game could spiral into an ever-slower loop and lock up. It now briefly runs in slow-motion instead of hanging, and writes worldwar_perf.log if it ever stalls.",
+   "- Unit stats now show Movement Speed (boot icon) under armour, with Blast Radius moved below it.",
+   "- The Technology Tree tooltip now lists Blast Radius for area-of-effect units.",
+   "- Artillery now leaves a proper destroyed-piece wreck (the field cannon and the full gun each get their own, team-coloured).",
+   "- The shipyard's military/economic toggle now uses clearer warship / fishing-boat icons.",
+   "CIVILISATION-SPECIFIC:",
+   "- Empire of Japan: the Yamato now sits behind the Battleship technology - researching it unlocks both the Battleship and the Yamato."
+  ]
+ },
+ {
+  "version": "2.13.0",
+  "title": "Blast Radius, Melee & Missile Fixes",
+  "lines": [
+   "GENERAL:",
+   "- Tanks now have a small area blast (Light Tank, Tank, Heavy Tank, Tiger I, Tiger II), scaled up the line.",
+   "- Melee units (Swordsman line and Camels) attack 33% slower - the same rate as Cavalry.",
+   "- Artillery I blast radius is now 1 tile.",
+   "- Buildings now reach full health after a building-HP upgrade (Steel Frame) and when freshly built.",
+   "- The Ballistic Missile now lobs OVER everything - it can't be hit mid-air, only detonating where it lands.",
+   "- A destroyed Ballistic Missile now plays just the small explosion, not a giant one.",
+   "- Fixed the Ballistic Missile's odd pose when firing nearly straight up or down.",
+   "CIVILISATION-SPECIFIC:",
+   "- Soviet Union: buildings now reach their full +50% HP."
+  ]
+ },
+ {
+  "version": "2.12.0",
+  "title": "Blast Stats, Missile Tuning & Crash Logging",
+  "lines": [
+   "- Unit stats now show a Blast Radius (in tiles, with a red target icon) under armour for area-of-effect units - artillery, warships, bombers and the Ballistic Missile.",
+   "- The Ballistic Missile now has a minimum range of 4 tiles (it can't strike targets right on top of it).",
+   "- The atomic mushroom cloud now keeps billowing for its full few seconds on screen instead of freezing on the last frame.",
+   "- Added a crash/stall log: if the game ever drops below 30 FPS or crashes, it writes 'worldwar_perf.log' next to the game - send that file so the exact cause can be found."
+  ]
+ },
+ {
+  "version": "2.11.1",
+  "title": "Ballistic Missile Facing",
+  "lines": [
+   "- The Ballistic Missile now MIRRORS to face left when it fires that way (the same way the launcher flips) instead of rotating over and looking upside-down.",
+   "- Moved the missile's exhaust plume back to the tail so the fire erupts from the nozzle rather than mid-body."
+  ]
+ },
+ {
+  "version": "2.11.0",
+  "title": "Performance & Missile Polish",
+  "lines": [
+   "GENERAL:",
+   "- Big framerate improvement: the minimap used to redraw every map tile individually each frame, which crushed the framerate on larger maps. It is now cached and drawn in one pass - the stress test more than doubled its framerate (well past 60 FPS).",
+   "- The Ballistic Missile's exhaust now fires cleanly out of the REAR of the missile, exactly opposite the way its nose is pointing, all the way through the launch and flight.",
+   "- Reduced the tank engine sound effect by a further 33% so massed armour is less deafening.",
+   "CIVILISATION-SPECIFIC:",
+   "- Ottoman Empire: the Royal Janissary upgrade no longer shows in the civ preview (it is still in the Tech Tree and on the Fortress card)."
+  ]
+ },
+ {
+  "version": "2.10.0",
+  "title": "Command Card, Navy & Missile Overhaul",
+  "lines": [
+   "GENERAL:",
+   "- The command card is now 3 rows tall (was 2), giving more room for a building's units and technologies, and the minimap is larger.",
+   "- The civilisation picker now lists each civ's unique units and technologies (with icons) alongside its bonuses.",
+   "- The Ballistic Missile now launches from the tip of its rail (lining the detached missile up with the loaded launcher), leaves a much bigger, longer exhaust that trails its whole flight, and leaves a distinct wreck with a damaging explosion when destroyed.",
+   "CIVILISATION-SPECIFIC:",
+   "- United Kingdom: new unique technology Naval Hegemony (Fortress, Scientific era, 600 food 750 oil) - all your ships move 15% faster and your military ships deal 15% more damage.",
+   "- Ottoman Empire: the bonus now speeds up ALL Barracks production by 30% (was rifle units only)."
+  ]
+ },
+ {
+  "version": "2.9.4",
+  "title": "Missile Launch & UI Polish",
+  "lines": [
+   "GENERAL:",
+   "- The Ballistic Missile now has a proper launch sequence: it holds on the pad venting a jet of fire and smoke, then accelerates slowly before climbing away toward its target, rotating about its nose the whole way.",
+   "- Fixed the unit stats readout so a large attack with a bonus (e.g. a bonused Ballistic Missile showing 200+50) no longer overlaps the range number.",
+   "- In the Technology Tree, an item's hover tooltip now draws on top of the scroll buttons; and command-card descriptions grow to fit so longer text is no longer cut off.",
+   "CIVILISATION-SPECIFIC:",
+   "- Nazi Germany: jet & rocket bonus increased to +25% damage (Jet Fighter and Ballistic Missile)."
+  ]
+ }
+]

@@ -1,0 +1,6 @@
+0,gather,2,3
+0,move,4,900,750
+0,place,0,house,700,950
+0,enqueue,1,civilian
+50,research,0,uniform
+100,attack,4,6

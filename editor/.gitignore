@@ -1,0 +1,16 @@
+build/
+build_final/
+compile_commands.json
+*.bmp
+*.exe
+.vs/
+.vscode/
+
+# Vendored SDL SDKs + packaged runtime -- kept out of the repo.
+/dist/
+/deps/
+__pycache__/
+*.pyc
+*.obj
+.DS_Store
+Thumbs.db

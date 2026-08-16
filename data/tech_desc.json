@@ -1,0 +1,494 @@
+{
+ "house": {
+  "title": "Build House",
+  "desc": "Houses population. Drop off point for wood and food."
+ },
+ "base": {
+  "title": "Build Capitol",
+  "desc": "Centre of civilisation"
+ },
+ "barracks": {
+  "title": "Build Barracks",
+  "desc": "Requires Academy. Train ranged infantry"
+ },
+ "academy": {
+  "title": "Build Academy",
+  "desc": "Train melee infantry"
+ },
+ "palisade": {
+  "title": "Build Palisade Wall",
+  "desc": "Wooden wall that is cheap and easy to build."
+ },
+ "civilian": {
+  "title": "Train Civilian",
+  "desc": "Collects resources"
+ },
+ "cavalry": {
+  "title": "Train Scout",
+  "desc": "Mobile unit"
+ },
+ "cavalry2": {
+  "title": "Train Cavalry",
+  "desc": "Armored mobile unit"
+ },
+ "cavalry3": {
+  "title": "Train Heavy Cavalry",
+  "desc": "Heavily armored mobile unit"
+ },
+ "swordsman upgrade": {
+  "title": "Research Swordmastery",
+  "desc": "Upgrade swordsman into more powerful, armored swordmasters."
+ },
+ "heavy bomber upgrade": {
+  "title": "Research Heavy Bomber",
+  "desc": "Upgrades bomber into heavy bombers, which have more hitpoints, pierce armor, bomb carry capacity and fuel efficiency."
+ },
+ "cavalry2 upgrade": {
+  "title": "Research Heavy Cavalry",
+  "desc": "Upgrade cavalry to become armored and more powerful."
+ },
+ "infantryman upgrade": {
+  "title": "Research Infantryman",
+  "desc": "Upgrade riflemen into infantrymen. They are more powerful and have faster reload."
+ },
+ "fighter": {
+  "title": "Create Fighter",
+  "desc": "Quick and nimble aeroplane with twin machine guns. Attack bonus vs. other planes."
+ },
+ "infantryman": {
+  "title": "Create Infantryman",
+  "desc": "Expert infantry unit carrying a rifle with a fast rate of fire."
+ },
+ "waffen": {
+  "title": "Create Waffen SS",
+  "desc": "A powerful specialist infantry unit that underwent training in Nazi military tactics. +5 bonus damage vs. villagers."
+ },
+ "elite waffen": {
+  "title": "Create Elite Waffen SS",
+  "desc": "A powerful specialist infantry unit that underwent advanced training in Nazi military tactics. +5 bonus damage vs. villagers."
+ },
+ "gasoline": {
+  "title": "Research Gasoline",
+  "desc": "Improves the fuel efficiency of planes by 40%"
+ },
+ "artillery": {
+  "title": "Create Artillery",
+  "desc": "Slow moving ranged weapon that launches explosive projectiles. Has a minimum range. Effective vs. grouped units. Attack bonus vs. tanks."
+ },
+ "blowback operation": {
+  "title": "Research Blowback Reload",
+  "desc": "Rifle units fire faster."
+ },
+ "synthetic fuel": {
+  "title": "Research Synthetic Fuel",
+  "desc": "Improves the fuel efficiency of planes by 60%"
+ },
+ "elite waffen upgrade": {
+  "title": "Upgrade to Elite Waffen SS",
+  "desc": "Upgrade Waffen SS to the elite rank. They have more HP, armor and power."
+ },
+ "camel": {
+  "title": "Camel",
+  "desc": "A rider with a large sabre mounted on a camel. Attack bonus vs. cavalry."
+ },
+ "camel corps": {
+  "title": "Camel Corps",
+  "desc": "Ottoman Empire unique unit. An elite rider with a large sabre mounted on an armored camel. Attack bonus vs. cavalry."
+ },
+ "camel corps upgrade": {
+  "title": "Upgrade to Camel Corps",
+  "desc": "Upgrade camels into more powerful armored camels, which form a part of the specialist camelry regiment named Camel Corps."
+ },
+ "fortress": {
+  "title": "Build Fortress",
+  "desc": "Defensive fortification that houses artillery cannons to fire upon approaching enemies."
+ },
+ "aa gun": {
+  "title": "Create AA Gun",
+  "desc": "Anti-aircraft gun. Can only destroy aerial targets."
+ },
+ "flak": {
+  "title": "Create Flak",
+  "desc": "Powerful anti-aircraft gun. Can only destroy aerial targets."
+ },
+ "flak upgrade": {
+  "title": "Upgrade to Flak",
+  "desc": "Upgrade your AA guns into Flaks, which are more powerful."
+ },
+ "flak tower upgrade": {
+  "title": "Upgrade to Flak Tower",
+  "desc": "Upgrade your towers into Flak Towers, which are more powerful."
+ },
+ "shipyard": {
+  "title": "Build Shipyard",
+  "desc": "Construct military and economic ships."
+ },
+ "group": {
+  "title": "Group",
+  "desc": "Instruct your units to adopt a grouped formation."
+ },
+ "fishing boat": {
+  "title": "Create Fishing Boat",
+  "desc": "Gathers food from fish."
+ },
+ "jet fighter": {
+  "title": "Create Jet Fighter",
+  "desc": "Powerful fighter with extreme speed and fire power. Attack bonus vs. other planes."
+ },
+ "ohka": {
+  "title": "Create Ohka",
+  "desc": "Japanese unique unit. Rocket powered kamikaze attack aircraft. Fast but difficult to maneuvre and poor range. Must be sacrificed and crash to detonate. Attack bonus vs. ships."
+ },
+ "biplane": {
+  "title": "Create Biplane",
+  "desc": "A fixed-wing aircraft with stacked wings. A machine gun can be fired from the cockpit."
+ },
+ "light tank": {
+  "title": "Create Light Tank",
+  "desc": "Heavily armored slow moving unit. Attack bonus vs. buildings."
+ },
+ "janissary": {
+  "title": "Create Janissary",
+  "desc": "Ottoman Empire unique gunpowder unit. Carries a powerful blunderbuss with a slow reload."
+ },
+ "royal janissary": {
+  "title": "Create Royal Janissary",
+  "desc": "Ottoman Empire unique elite gunpowder unit. Carries a powerful blunderbuss with a slow reload."
+ },
+ "royal janissary upgrade": {
+  "title": "Upgrade to Royal Janissary",
+  "desc": "Upgrade Janissaries into Royal Janissaries, which have more armor and are more powerful."
+ },
+ "swordsman": {
+  "title": "Train Swordsman",
+  "desc": "Melee unit"
+ },
+ "swordsman2": {
+  "title": "Train Swordmaster",
+  "desc": "Armored melee unit"
+ },
+ "soldier": {
+  "title": "Train Soldier",
+  "desc": "Ranged unit"
+ },
+ "leather": {
+  "title": "Research Uniform",
+  "desc": "Civilians gain +10 HP and +1 armor"
+ },
+ "irrigation": {
+  "title": "Research Irrigation",
+  "desc": "Farms provide +75 food."
+ },
+ "rifleman upgrade": {
+  "title": "Research Rifleman",
+  "desc": "Upgrades muscateers into riflemen."
+ },
+ "ballistics": {
+  "title": "Research Ballistics",
+  "desc": "Projectiles are fired more accurately at moving targets."
+ },
+ "horsewagon": {
+  "title": "Research Horse Wagon",
+  "desc": "Civilians carry more resources, move 10% faster, and are 10% more efficient at collecting food."
+ },
+ "fertilizer": {
+  "title": "Research Fertilizer",
+  "desc": "Farms provide +125 food."
+ },
+ "smelting": {
+  "title": "Research Smelting",
+  "desc": "Improves iron ore mining efficiency by 15%"
+ },
+ "beneficiation": {
+  "title": "Research Beneficiation",
+  "desc": "Improves iron ore mining efficiency by 15%"
+ },
+ "bomber": {
+  "title": "Create Bomber",
+  "desc": "A large aircraft that drops an explosive payload. Attack bonus vs. buildings. Large blast radius. Vulnerable to fighters."
+ },
+ "heavy bomber": {
+  "title": "Create Heavy Bomber",
+  "desc": "A large aircraft with strong armor that drops an explosive payload. Attack bonus vs. buildings. Large blast radius. Vulnerable to fighters."
+ },
+ "b29": {
+  "title": "B29 Superfortress",
+  "desc": "An advanced heavy bomber with superior armor and defenses."
+ },
+ "battleship": {
+  "title": "Battleship",
+  "desc": "A massive ship with an extremely powerful arsenal of missiles."
+ },
+ "steel plane armor": {
+  "title": "Steel Plane Armor",
+  "desc": "Increases the pierce armor of all planes by 2."
+ },
+ "composite plane armor": {
+  "title": "Composite Plane Armor",
+  "desc": "Increases the pierce armor of all planes by 2."
+ },
+ "yamato": {
+  "title": "Yamato",
+  "desc": "Japanese unique naval unit. The heaviest and most powerful battleship ever constructed, this leads the Japanese Navy. Attack bonus vs. buildings."
+ },
+ "destroyer": {
+  "title": "Destroyer",
+  "desc": "A military ship with two high-power cannons for shooting down enemy ships. Attack bonus vs. ships."
+ },
+ "torpedo boat": {
+  "title": "Torpedo Boat",
+  "desc": "A military ship with a cannon to shoot torpedos at enemy ships. Attack bonus vs. ships."
+ },
+ "torpedo boat upgrade": {
+  "title": "Torpedo Boat Upgrade",
+  "desc": "Upgrades frigates into steam driven torpedo boats."
+ },
+ "battleship upgrade": {
+  "title": "Research Battleship",
+  "desc": "Enables construction of battleships, the most powerful unit in the navy."
+ },
+ "nuclear reactor": {
+  "title": "Build Nuclear Reactor",
+  "desc": "Requires Nuclear Physics. Generates passive energy which is converted into oil for use. If destroyed by explosives may create a large explosion."
+ },
+ "destroyer upgrade": {
+  "title": "Destroyer Upgrade",
+  "desc": "Upgrades torpedo boats into high power war-ready destroyers with dual cannons."
+ },
+ "frigate": {
+  "title": "Frigate",
+  "desc": "A military ship with a cannon for shooting down enemy ships. Attack bonus vs. ships."
+ },
+ "pesticide": {
+  "title": "Research Pesticide",
+  "desc": "Farms provide +200 food."
+ },
+ "vehicle": {
+  "title": "Research Vehicle",
+  "desc": "Civilians carry more resources, move 10% faster, and are 10% more efficient at collecting food"
+ },
+ "steel frame": {
+  "title": "Research Steel Frame",
+  "desc": "Buildings have +30% HP."
+ },
+ "jet engine": {
+  "title": "Research Jet Engine",
+  "desc": "Required to build jet-powered aeroplanes"
+ },
+ "binoculars": {
+  "title": "Research Binoculars",
+  "desc": "Infantry gain +2 sight"
+ },
+ "fighter upgrade": {
+  "title": "Research Fighter",
+  "desc": "Upgrade biplanes into monoplanes"
+ },
+ "jet fighter upgrade": {
+  "title": "Research Jet Fighter",
+  "desc": "Upgrade fighters into powerful jet fighters"
+ },
+ "farm": {
+  "title": "Build Farm",
+  "desc": "Grow food"
+ },
+ "industrial": {
+  "title": "Industrial Era",
+  "desc": "Advance to the Industrial Era."
+ },
+ "war": {
+  "title": "War Era",
+  "desc": "Advance to the War Era."
+ },
+ "refinery": {
+  "title": "Build Refinery",
+  "desc": "Drop off oil and iron resources. Used to research armor and weapon upgrades."
+ },
+ "scientific": {
+  "title": "Scientific Era",
+  "desc": "Advance to the Scientific Era."
+ },
+ "bolt action rifle": {
+  "title": "Bolt-action Rifle",
+  "desc": "Increases the power of firearm units by 1, and the range by 1."
+ },
+ "semi automatic rifle": {
+  "title": "Semi-automatic Rifle",
+  "desc": "Increases the power of firearm units by 2, and the range by 1."
+ },
+ "assault rifle": {
+  "title": "Assault Rifle",
+  "desc": "Increases the power of firearm units by 2, and the range by 1."
+ },
+ "muscateer": {
+  "title": "Train Muscateer",
+  "desc": "Ranged unit with a long reload time."
+ },
+ "rifleman": {
+  "title": "Train Rifleman",
+  "desc": "Ranged unit carrying a rifle."
+ },
+ "nuclear physics": {
+  "title": "Research Nuclear Physics",
+  "desc": "Enables development of technology requiring nuclear power."
+ },
+ "atomic bomb": {
+  "title": "Create Atomic Bomb",
+  "desc": "Uses the destructive power of atomic fission to level entire cities. Requires nuclear physics."
+ },
+ "electric drill": {
+  "title": "Research Electric Drilling",
+  "desc": "Improves oil extraction efficiency by 15%"
+ },
+ "fracking": {
+  "title": "Research Fracking",
+  "desc": "Improves oil extraction efficiency by 15%"
+ },
+ "factory": {
+  "title": "Build Factory",
+  "desc": "Construct tanks"
+ },
+ "refined steel": {
+  "title": "Research Refined Steel",
+  "desc": "Melee units gain +1 attack."
+ },
+ "electric arc furnace": {
+  "title": "Research Electric Arc Furnace",
+  "desc": "Melee units gain +2 attack."
+ },
+ "metal alloy": {
+  "title": "Research Alloys",
+  "desc": "Melee units gain +1 attack."
+ },
+ "imports": {
+  "title": "Research Trade Agreement",
+  "desc": "Reduces the commodity trading fee to 10%"
+ },
+ "heavy tank": {
+  "title": "Create Heavy Tank",
+  "desc": "Extremely powerful tank. Attack bonus vs. buildings. Projectiles have a blast radius. Tramples forests."
+ },
+ "tank": {
+  "title": "Create Tank",
+  "desc": "Slow moving, well armored tank. Attack bonus vs. buildings. Projectiles have a blast radius."
+ },
+ "heavy tank upgrade": {
+  "title": "Upgrade to Heavy Tank",
+  "desc": "Upgrades your tanks to heavy tanks, which have more HP, armor and firepower, and are able to crush forests."
+ },
+ "tiger tank": {
+  "title": "Create Tiger I",
+  "desc": "Nazi Germany unique unit. Extremely powerful heavy tank. Attack bonus vs. buildings. Tramples forests."
+ },
+ "tiger tank2": {
+  "title": "Create Tiger II",
+  "desc": "Nazi Germany unique unit. Revised Tiger Tank known as the 'King Tiger' with superior armor and power. Attack bonus vs. buildings. Tramples forests."
+ },
+ "tiger2 tank upgrade": {
+  "title": "Upgrade to Tiger II",
+  "desc": "Research design improvements to the Tiger I tank to create the upgraded Tiger II tank 'King Tiger' with more a more powerful cannon and superior armor."
+ },
+ "university": {
+  "title": "Build University",
+  "desc": "Research and develop technology"
+ },
+ "flak tower": {
+  "title": "Build AA Tower",
+  "desc": "Defensive tower that can strike both aerial and grounded targets. Attack bonus vs. planes."
+ },
+ "tower": {
+  "title": "Build Tower",
+  "desc": "Defensive tower that can strike both aerial and grounded targets. Attack bonus vs. planes."
+ },
+ "market": {
+  "title": "Build Market",
+  "desc": "Economic building that can be used to upgrade agriculture and resource collection"
+ },
+ "power saw": {
+  "title": "Research Power Saw",
+  "desc": "Increases wood chopping efficiency by 10%"
+ },
+ "mobile sawmill": {
+  "title": "Research Mobile Saw Mill",
+  "desc": "Increases wood chopping efficiency by 10%"
+ },
+ "diesel engine": {
+  "title": "Research Diesel Engine",
+  "desc": "Increases movement speed of tanks by 20%"
+ },
+ "sell food": {
+  "title": "Sell Food",
+  "desc": "Sell 100 Food for "
+ },
+ "sell wood": {
+  "title": "Sell Wood",
+  "desc": "Sell 100 Wood for "
+ },
+ "sell iron": {
+  "title": "Sell Iron",
+  "desc": "Sell 100 Iron for "
+ },
+ "buy iron": {
+  "title": "Buy Iron",
+  "desc": "Buy 100 Iron for "
+ },
+ "buy food": {
+  "title": "Buy Food",
+  "desc": "Buy 100 Food for "
+ },
+ "buy wood": {
+  "title": "Buy Wood",
+  "desc": "Buy 100 Wood for "
+ },
+ "attack move": {
+  "title": "Attack Move",
+  "desc": "Units will move towards the designated area but will stop and attack if they see an enemy."
+ },
+ "attack target": {
+  "title": "Attack Ground",
+  "desc": "Target an area for this unit to attack."
+ },
+ "land": {
+  "title": "Land",
+  "desc": "Select an airport for this plane to land and refuel at."
+ },
+ "build": {
+  "title": "Build Economic building",
+  "desc": "Command the civilian to construct an economic building."
+ },
+ "build military": {
+  "title": "Build Military builing",
+  "desc": "Command the civilian to construct a military or defensive building."
+ },
+ "airbase": {
+  "title": "Build Airport",
+  "desc": "Produce and refuel aeroplanes"
+ },
+ "emergency fighter program": {
+  "title": "Emergency Fighter Program",
+  "desc": "Your fighter planes cost wood instead of iron."
+ },
+ "meiji restoration": {
+  "title": "Meiji Restoration",
+  "desc": "Samurai cost FOOD instead of iron."
+ },
+ "420mm mortar": {
+  "title": "5-Year Plan",
+  "desc": "Factory, airbase and artillery units cost 20% less. Your civilians also gather wood, oil and iron 3% faster."
+ },
+ "conscription": {
+  "title": "Conscription",
+  "desc": "Land military units train 33% faster."
+ },
+ "radar": {
+  "title": "Research Radar",
+  "desc": "Increases the line of sight of your towers, outposts, bases and fortresses by 3 tiles, and your ships and planes by 2 tiles. It also adds +1 tile of attack range to those defensive buildings and to your ships and planes."
+ },
+ "heavy artillery": {
+  "title": "Create Heavy Artillery",
+  "desc": "A heavier, longer-ranged siege gun that lobs explosive shells with a large blast radius. Has a minimum range and a bonus vs. tanks. Soviet Union unique, upgraded from Artillery."
+ },
+ "heavy artillery upgrade": {
+  "title": "Research Heavy Artillery Upgrade",
+  "desc": "Upgrades your Artillery into Heavy Artillery: more health, armour, damage, range and blast radius. Soviet Union unique."
+ }
+}

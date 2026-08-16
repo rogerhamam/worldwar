@@ -1,0 +1,336 @@
+{
+ "uniform": {
+  "name": "Uniform",
+  "building": "base",
+  "age": 0,
+  "cost": {
+   "oil": 50
+  },
+  "effect": "villagerArmor",
+  "desc": "Villagers gain +10 HP, +1 melee and +1 pierce armor",
+  "requiresTech": null
+ },
+ "refined_steel": {
+  "name": "Refined Steel",
+  "building": "refinery",
+  "age": 1,
+  "cost": {
+   "food": 100
+  },
+  "effect": "meleeAttack1",
+  "desc": "Melee units +1 attack",
+  "requiresTech": null
+ },
+ "alloys": {
+  "name": "Alloys",
+  "building": "refinery",
+  "age": 2,
+  "cost": {
+   "food": 150,
+   "oil": 75
+  },
+  "effect": "meleeAttack1_tankSpeed3",
+  "desc": "Melee units +1 attack, tanks move 3% faster",
+  "requiresTech": null
+ },
+ "electric_arc_furnace": {
+  "name": "Electric Arc Furnace",
+  "building": "refinery",
+  "age": 3,
+  "cost": {
+   "food": 300,
+   "oil": 200
+  },
+  "effect": "meleeAttack2",
+  "desc": "Melee units +2 attack",
+  "requiresTech": null
+ },
+ "diesel_engine": {
+  "name": "Diesel Engine",
+  "building": "factory",
+  "age": 1,
+  "cost": {
+   "food": 400,
+   "oil": 300
+  },
+  "effect": "tankSpeed20",
+  "desc": "Tanks move 20% faster",
+  "requiresTech": null
+ },
+ "blowback_reload": {
+  "name": "Blowback Reload",
+  "building": "factory",
+  "age": 1,
+  "cost": {
+   "food": 300,
+   "wood": 250
+  },
+  "effect": "rifleFireRate18",
+  "desc": "Rifle units fire 18% faster",
+  "requiresTech": null
+ },
+ "steel_plane_armour": {
+  "name": "Steel Plane Armour",
+  "building": "airport",
+  "age": 1,
+  "cost": {
+   "food": 250,
+   "iron": 100
+  },
+  "effect": "planeArmor2",
+  "desc": "Planes +2 pierce armor",
+  "requiresTech": null
+ },
+ "composite_plane_armour": {
+  "name": "Composite Plane Armour",
+  "building": "airport",
+  "age": 2,
+  "cost": {
+   "food": 450,
+   "iron": 250
+  },
+  "effect": "planeArmor2_2",
+  "desc": "Planes +2 pierce armor",
+  "requiresTech": null
+ },
+ "atomic_bomb": {
+  "name": "Atomic Bomb",
+  "building": "airport",
+  "age": 3,
+  "cost": {
+   "oil": 200,
+   "iron": 200
+  },
+  "effect": "atomicBomb",
+  "desc": "Heavy bombers carry 1 atomic bomb",
+  "requiresTech": "nuclear_physics"
+ },
+ "air_supply": {
+  "name": "Air Supply",
+  "building": "airport",
+  "age": 1,
+  "cost": {
+   "food": 150,
+   "wood": 350
+  },
+  "effect": "landSpeed5",
+  "desc": "All land units move 5% faster",
+  "requiresTech": null
+ },
+ "steel_frame": {
+  "name": "Steel Frame",
+  "building": "university",
+  "age": 1,
+  "cost": {
+   "food": 200,
+   "wood": 200
+  },
+  "effect": "buildingHP30",
+  "desc": "Buildings +30% HP",
+  "requiresTech": null
+ },
+ "electric_drill": {
+  "name": "Electric Drill",
+  "building": "university",
+  "age": 1,
+  "cost": {
+   "food": 100,
+   "wood": 75
+  },
+  "effect": "oilGather15",
+  "desc": "Villagers collect oil 15% faster",
+  "requiresTech": null
+ },
+ "smelting": {
+  "name": "Smelting",
+  "building": "university",
+  "age": 1,
+  "cost": {
+   "food": 100,
+   "wood": 75
+  },
+  "effect": "ironGather15",
+  "desc": "Villagers collect iron 15% faster",
+  "requiresTech": null
+ },
+ "ballistics": {
+  "name": "Ballistics",
+  "building": "university",
+  "age": 2,
+  "cost": {
+   "wood": 300,
+   "oil": 175
+  },
+  "effect": "ballistics",
+  "desc": "Projectiles have higher accuracy vs moving targets",
+  "requiresTech": null
+ },
+ "fracking": {
+  "name": "Fracking",
+  "building": "university",
+  "age": 2,
+  "cost": {
+   "food": 200,
+   "wood": 100
+  },
+  "effect": "oilGather10",
+  "desc": "Villagers collect oil 10% faster",
+  "requiresTech": "electric_drill"
+ },
+ "beneficiation": {
+  "name": "Beneficiation",
+  "building": "university",
+  "age": 2,
+  "cost": {
+   "food": 200,
+   "wood": 100
+  },
+  "effect": "ironGather10",
+  "desc": "Villagers collect iron 10% faster",
+  "requiresTech": "smelting"
+ },
+ "gasoline": {
+  "name": "Gasoline",
+  "building": "university",
+  "age": 2,
+  "cost": {
+   "food": 100,
+   "oil": 150
+  },
+  "effect": "planeFuel40",
+  "desc": "Plane fuel efficiency +40%",
+  "requiresTech": null
+ },
+ "jet_engine": {
+  "name": "Jet Engine",
+  "building": "university",
+  "age": 3,
+  "cost": {
+   "food": 300,
+   "oil": 300
+  },
+  "effect": "jetEngine",
+  "desc": "Required to build jet fighters",
+  "requiresTech": null
+ },
+ "nuclear_physics": {
+  "name": "Nuclear Physics",
+  "building": "university",
+  "age": 3,
+  "cost": {
+   "food": 300,
+   "oil": 200
+  },
+  "effect": "nuclearPhysics",
+  "desc": "Enables nuclear technologies",
+  "requiresTech": null
+ },
+ "synthetic_oil": {
+  "name": "Synthetic Oil",
+  "building": "university",
+  "age": 3,
+  "cost": {
+   "food": 150,
+   "oil": 300
+  },
+  "effect": "planeFuel60",
+  "desc": "Plane fuel efficiency +60%",
+  "requiresTech": "gasoline"
+ },
+ "irrigation": {
+  "name": "Irrigation",
+  "building": "market",
+  "age": 0,
+  "cost": {
+   "food": 75,
+   "wood": 75
+  },
+  "effect": "farmFood75",
+  "desc": "Farms contain +75 food",
+  "requiresTech": null
+ },
+ "fertilizer": {
+  "name": "Fertilizer",
+  "building": "market",
+  "age": 1,
+  "cost": {
+   "food": 200,
+   "wood": 150
+  },
+  "effect": "farmFood125",
+  "desc": "Farms provide +125 food",
+  "requiresTech": "irrigation"
+ },
+ "horse_wagon": {
+  "name": "Horse Wagon",
+  "building": "market",
+  "age": 1,
+  "cost": {
+   "food": 175,
+   "wood": 50
+  },
+  "effect": "villagerCarry2_speed10_food10",
+  "desc": "Villagers +2 carry, +10% speed, +10% food gather",
+  "requiresTech": null
+ },
+ "power_saw": {
+  "name": "Power Saw",
+  "building": "market",
+  "age": 1,
+  "cost": {
+   "food": 50,
+   "wood": 50
+  },
+  "effect": "woodGather10",
+  "desc": "Villagers gather wood 10% faster",
+  "requiresTech": null
+ },
+ "trade_agreement": {
+  "name": "Trade Agreement",
+  "building": "market",
+  "age": 1,
+  "cost": {
+   "food": 200,
+   "oil": 100
+  },
+  "effect": "tradeFee10",
+  "desc": "Trading fee reduced to 10%",
+  "requiresTech": null
+ },
+ "pesticide": {
+  "name": "Pesticide",
+  "building": "market",
+  "age": 2,
+  "cost": {
+   "food": 300,
+   "wood": 200
+  },
+  "effect": "farmFood200",
+  "desc": "Farms contain +200 food",
+  "requiresTech": "fertilizer"
+ },
+ "tractor": {
+  "name": "Tractor",
+  "building": "market",
+  "age": 2,
+  "cost": {
+   "food": 250,
+   "oil": 100
+  },
+  "effect": "villagerCarry3_speed10_food10",
+  "desc": "Villagers +3 carry, +10% speed, +10% food gather",
+  "requiresTech": "horse_wagon"
+ },
+ "mobile_sawmill": {
+  "name": "Mobile Sawmill",
+  "building": "market",
+  "age": 2,
+  "cost": {
+   "food": 200,
+   "wood": 150
+  },
+  "effect": "woodGather10_2",
+  "desc": "Villagers gather wood +10% faster",
+  "requiresTech": "power_saw"
+ }
+}

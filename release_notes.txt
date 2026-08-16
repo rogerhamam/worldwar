@@ -1,0 +1,62 @@
+World War 2.16.0 - Multiplayer, and an AI that actually advances
+
+Two releases in one: 2.15.0 was prepared but never went out, so everything
+from it ships here as well.
+
+MULTIPLAYER IS PLAYABLE FROM THE MENU
+- Main Menu now splits into Single Player and Multiplayer.
+- Multiplayer: host a game or join one by address. The host is shown every
+  address to read out, and the game asks your router to open the port for you
+  (UPnP) in the background - a LAN or VPN game needs none of that and works
+  regardless.
+- A proper lobby: both players pick their own civilisation, leader, colour and
+  team; the host sets the map and the rules; both mark themselves ready, and
+  the host starts. It is the same setup screen as single player.
+- Under it: deterministic lockstep with per-turn desync detection, so both
+  machines simulate the identical match from the identical inputs.
+
+  IMPORTANT: this bumps the network protocol. You can only play multiplayer
+  with people who have also updated - older builds are refused at the
+  handshake rather than silently desyncing ten minutes in.
+
+THE AI NOW REACHES THE LATER AGES
+- Fixed the reason the AI sat in the Industrial era all game with a huge score
+  and never advanced. It refused to protect the food for its next age until it
+  had already saved 60% of the cost - which it never could, because its
+  barracks spent every spare scrap the moment it was gathered. It now reserves
+  the age cost as soon as the age is legal.
+  Across 20 measured team-instances: reaching the War era went from 0% to 15%,
+  the Scientific era from 0% to 5%, and idle town-centre time fell from 777
+  seconds a match to 228.
+- Production buildings no longer stack deep queues. The AI re-checks every
+  building constantly, so a long queue never made it build faster - it only
+  froze resources it had already paid for, including the resources it needed
+  to age up.
+
+NEW DIFFICULTY: HARDEST
+- Hard's reaction speed, plus openly-declared advantages: its units train 50%
+  faster, and every technology its civilisation can hold is researched free
+  and instantly the moment it enters each era - including the upgrades that
+  convert its standing army. It still has to earn each age.
+
+NOTIFICATIONS
+- "You are under attack!" - with a warning siren and a marker on the minimap
+  showing where, so a raid on an outlying farm no longer reads the same as one
+  on your town centre.
+- The chat feed now announces every player's era advance by name, so you can
+  see an opponent hit the War era before their tanks arrive.
+
+EVERYTHING FROM 2.15.0
+- Aircraft carriers, with naval and amphibious AI to use them.
+- Ballistic missile launchers: pack to move, deploy to fire, 420mm blast.
+- Royal Marines, radar, and an expanded naval roster.
+- Post-game statistics screen: timeline, economy, largest battle.
+- Victory/defeat banner and the nuke cinematic.
+- Starting-age selection, plane garrisoning, and an objective HUD.
+- Three-row command card, AoE-style shift-queueing, and per-item rebindable
+  hotkeys with a Classic AoE2 preset.
+- Germany campaign expanded to five levels; campaign age caps, population
+  caps, on-tile triggers and dormant independence.
+- Fixed mid-battle freezes (per-step rally pathfinding budget and a tighter
+  frame catch-up cap).
+- Villagers no longer get stuck: every movement path is routed and watched.

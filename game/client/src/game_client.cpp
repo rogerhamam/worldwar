@@ -245,6 +245,7 @@ const std::unordered_map<std::string, GridPos>* tech_position_overrides(const st
         {"emergency fighter program", {4, 1}},
         {"meiji restoration", {4, 1}},
         {"420mm mortar", {4, 1}},
+        {"maginot line", {4, 1}},
         {"naval hegemony", {4, 1}}, // UK unique; shares the civ-unique cell (one per civ)
         // NOTE: royal marine upgrade is NOT pinned here -- it's placed directly
         // under the Royal Marine unit via tech_parent_units (like elite waffen /

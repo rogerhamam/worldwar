@@ -685,6 +685,14 @@
   "older_sibling": false
  },
  {
+  "col": 41,
+  "row": 6,
+  "name": "maginot line",
+  "child": false,
+  "parent": false,
+  "older_sibling": false
+ },
+ {
   "col": 40,
   "row": 6,
   "name": "conscription",

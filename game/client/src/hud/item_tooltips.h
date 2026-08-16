@@ -31,6 +31,10 @@ inline const std::unordered_map<std::string, ItemTooltip>& item_tooltips() {
         {"420mm mortar", {"Research 5-Year Plan",
             "The Soviet Union's unique technology. Factory, airbase and artillery units cost 20% less, "
             "and your civilians gather wood, oil and iron 3% faster."}},
+        {"maginot line", {"Research Maginot Line",
+            "France's unique technology. Your walls, towers and fortresses have 33% more hit "
+            "points, and your fortresses shoot 3 tiles further. Applies to the defences you have "
+            "already built as well as new ones."}},
         {"conscription", {"Research Conscription",
             "Your land military units are trained 33% faster."}},
         {"naval hegemony", {"Research Naval Hegemony",

@@ -218,6 +218,20 @@ void Bonuses::apply_building(Building& b, int civ, int /*leader*/, const std::se
     if (tech.count("steel_frame") || tech.count("steel frame")) mult *= 1.30;
     if (mult != 1.0 && b.name != "base") scale_hp(b.common.max_hp, b.common.hp, mult);
 
+    // Maginot Line (French unique, fortress/Scientific): the STATIC defences --
+    // both wall tiers, both tower tiers and the fortress -- get 33% more HP, and
+    // the fortress alone reaches 3 tiles further. Applied here (rather than as a
+    // civ "effects" entry) because it is tech-gated, not innate: France only has
+    // it once the tech is researched. Buildings raised after the research come
+    // out bonused via this path; the ones already standing are converted
+    // retroactively in Control::apply_research, the same way Steel Frame is.
+    if (tech.count("maginot line") || tech.count("maginot_line")) {
+        static const std::set<std::string> kMaginot = {"palisade", "iron wall", "tower",
+                                                       "aa tower", "fortress"};
+        if (kMaginot.count(b.name)) scale_hp(b.common.max_hp, b.common.hp, 1.33);
+        if (b.name == "fortress") b.range_px += 3 * 32.0; // +3 tiles
+    }
+
     if (b.name == "farm") {
         double bonus = (tech.count("irrigation") ? 75.0 : 0.0) +
                         (tech.count("fertilizer") ? 125.0 : 0.0) +

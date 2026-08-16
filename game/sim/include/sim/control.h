@@ -492,6 +492,17 @@ public:
     // era, it just arrives fully teched the moment it does.
     void grant_era_techs(int team, World& world);
 
+    // Hand over any of the civ's free techs (civs.json "freeTech") that the
+    // team has just become eligible for, i.e. whose era it has now reached.
+    // Called on every age-up (building_behavior.cpp); scenario.cpp's
+    // grant_free_techs does the era-0 pass at spawn.
+    //
+    // Routed through apply_research for the same reason grant_era_techs is: a
+    // free tech has to do everything a bought one does. France picking up
+    // Pesticide on reaching the War era should behave exactly as if it had
+    // paid for it that second.
+    void grant_unlocked_free_techs(int team, World& world);
+
     // Public (not just AI-internal) since the stress-test scenario
     // generator (stress_scenario.cpp) reuses it to place a full building
     // roster per team without duplicating the shipyard-near-water search.

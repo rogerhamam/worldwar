@@ -214,6 +214,14 @@ void update_building(EntityRef self, Building& b, double dt, World& world) {
             // infantrymen the same second it reaches Industrial.
             if (team.is_ai && team.difficulty >= 3)
                 ctrl.grant_era_techs(b.common.team, world);
+            // Civ free techs (civs.json "freeTech") unlock with the era they
+            // belong to rather than all landing at spawn, so reaching a new age
+            // is what hands France its Fertilizer/Pesticide, the UK its Radar
+            // and Germany its Jet Engine. Runs for every team, human and AI --
+            // and after grant_era_techs, which on Hardest may already have
+            // bought the same tech outright (apply_research no-ops on a tech
+            // the team owns, so the two never conflict).
+            ctrl.grant_unlocked_free_techs(b.common.team, world);
             if (b.common.team == 0) {
                 world.events.push({EventType::Sound, "age_advance", 0, 0, 0, kNullRef, ""});
                 world.events.push({EventType::Notify, "age_advance", 0, 0, 0, kNullRef, ""});

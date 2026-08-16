@@ -5104,6 +5104,21 @@ void Control::grant_era_techs(int team, World& world) {
     }
 }
 
+void Control::grant_unlocked_free_techs(int team, World& world) {
+    if (team < 0 || team >= static_cast<int>(teams.size())) return;
+    Team& td = teams[team];
+    const nlohmann::json& e = bonuses_.civ_effects(td.civ);
+    auto it = e.find("freeTech");
+    if (it == e.end() || !it->is_array()) return;
+    for (const auto& tech : *it) {
+        std::string key = tech.get<std::string>();
+        if (td.tech.count(key)) continue;
+        auto era = TECH_ERA.find(key);
+        if ((era != TECH_ERA.end() ? era->second : 0) > td.era) continue;
+        apply_research(key, team, world);
+    }
+}
+
 bool Control::repair_tick(EntityRef building_ref, int team, double dt, World& world) {
     Building* b = world.get_building(building_ref);
     if (!b || !b->complete || b->common.hp >= b->common.max_hp) return false;
@@ -5279,6 +5294,25 @@ void Control::apply_research(const std::string& key, int team, World& world) {
             b->common.max_hp = std::round(b->common.max_hp * 1.30);
             b->full_max_hp = std::round(b->full_max_hp * 1.30);
             if (b->complete) b->common.hp = b->common.max_hp; // fill finished buildings to the new full
+        }
+    }
+    // Maginot Line (French unique) is retroactive for the same reason Steel
+    // Frame is: a fortification tech that only helped walls built AFTER it would
+    // ask the player to demolish and re-raise their whole defensive line to
+    // collect it. Mirrors the +33% HP / +3 fortress range that Bonuses::
+    // apply_building gives anything raised from here on, so a wall standing at
+    // research time and one built a second later end up identical.
+    if (key == "maginot line" || key == "maginot_line") {
+        static const std::set<std::string> kMaginot = {"palisade", "iron wall", "tower",
+                                                       "aa tower", "fortress"};
+        for (auto ref : world.active_buildings) {
+            Building* b = world.get_building(ref);
+            if (!b || !b->common.alive || b->common.team != team) continue;
+            if (!kMaginot.count(b->name)) continue;
+            b->common.max_hp = std::round(b->common.max_hp * 1.33);
+            b->full_max_hp = std::round(b->full_max_hp * 1.33);
+            if (b->complete) b->common.hp = b->common.max_hp;
+            if (b->name == "fortress") b->range_px += 3 * TILE;
         }
     }
     if (team == 0) {

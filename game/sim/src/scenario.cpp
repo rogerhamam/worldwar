@@ -123,11 +123,24 @@ int area_scaled(int count_at_ref, int floor_n, int cols) {
 // France's free Irrigation). Defined in the data but previously never
 // applied -- called right after a team's civ is assigned, before any unit or
 // building spawns, so the tech's effects (farm food bonus, etc.) take hold.
+//
+// ERA-GATED: a free tech is only handed over once the team has actually
+// reached the era that tech belongs to. France's "all farm upgrades free" is
+// Irrigation (Victorian) + Fertilizer (Industrial) + Pesticide (War), and
+// granting all three at spawn handed a Victorian-era French player the whole
+// farm-upgrade line -- food output no other civ can reach for two full ages --
+// before the techs are even researchable. Now Irrigation lands at the start,
+// Fertilizer when they hit Industrial and Pesticide at War. The ones still
+// locked are picked up on age-up by Control::grant_unlocked_free_techs.
 void grant_free_techs(Team& t, const Bonuses& bonuses) {
     const nlohmann::json& e = bonuses.civ_effects(t.civ);
     auto it = e.find("freeTech");
-    if (it != e.end() && it->is_array()) {
-        for (const auto& tech : *it) t.tech.insert(tech.get<std::string>());
+    if (it == e.end() || !it->is_array()) return;
+    for (const auto& tech : *it) {
+        std::string key = tech.get<std::string>();
+        auto era = TECH_ERA.find(key);
+        if ((era != TECH_ERA.end() ? era->second : 0) > t.era) continue;
+        t.tech.insert(key);
     }
 }
 
@@ -697,7 +710,6 @@ std::unique_ptr<World> new_from_level(const DataStore& data, const Bonuses& bonu
     for (size_t i = 0; i < level.players.size() && i < 8; ++i) {
         Team& t = control.teams[i];
         t.civ = level.players[i].civ;
-        grant_free_techs(t, bonuses);
         // Campaign AI controls: per-player behaviour preset + the level's
         // bespoke AI profile (see control_ai.cpp's ai_manage branch). Skirmish
         // never sets these, so its AI is unaffected.
@@ -717,6 +729,11 @@ std::unique_ptr<World> new_from_level(const DataStore& data, const Bonuses& bonu
             // the cap to match rather than dragging the start back down to it.
             if (t.max_era >= 0 && t.max_era < t.era) t.max_era = t.era;
         }
+        // AFTER the starting era is settled, not before it: the free-tech grant
+        // is era-gated, so a level that starts everyone in the War era has to
+        // hand France its Fertilizer and Pesticide too, not just the Victorian
+        // Irrigation it would qualify for at era 0.
+        grant_free_techs(t, bonuses);
         // Starting stockpile: the per-player resources set in the editor become
         // each team's opening stockpile -- for the human AND every AI. Without
         // this they'd all start at the default 200/200/100/100.

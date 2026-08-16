@@ -475,6 +475,10 @@
   "title": "5-Year Plan",
   "desc": "Factory, airbase and artillery units cost 20% less. Your civilians also gather wood, oil and iron 3% faster."
  },
+ "maginot line": {
+  "title": "Maginot Line",
+  "desc": "Walls, towers and fortresses have 33% more HP. Fortresses also gain +3 range."
+ },
  "conscription": {
   "title": "Conscription",
   "desc": "Land military units train 33% faster."

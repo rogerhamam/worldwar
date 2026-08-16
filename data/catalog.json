@@ -1667,6 +1667,15 @@
     "iron": 600
    }
   },
+  "maginot line": {
+   "icon_sprite": "spr_unique_tech_icon",
+   "type": "tech",
+   "display": "Maginot Line",
+   "cost": {
+    "wood": 400,
+    "iron": 600
+   }
+  },
   "conscription": {
    "icon_sprite": "spr_conscription_icon",
    "type": "tech",

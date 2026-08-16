@@ -91,6 +91,7 @@ const std::map<std::string, std::set<int>> CIV_UPGRADE_OWNER = {
     {"emergency fighter program", {2}}, // Nazi Germany: aircraft cost wood, not iron
     {"meiji restoration", {4}},         // Japan: samurai cost food, not iron
     {"420mm mortar", {3}},              // Soviet Union: artillery blast radius +33% (display "Self-Propelled Mortar")
+    {"maginot line", {6}},              // France: walls/towers/fortresses +33% HP, fortresses +3 range
     {"heavy artillery upgrade", {3}},   // Soviet Union: artillery -> Heavy Artillery (scientific)
     {"aircraft carrier", {0, 1, 4, 5, 6}},      // UK/USA/Japan/Italy/France -> crossed out for the rest
     {"aircraft carrier upgrade", {0, 1, 4, 6}}, // supercarrier: UK/USA/Japan/France (Italy gets the base carrier only)
@@ -188,6 +189,7 @@ const std::unordered_map<std::string, int> TECH_ERA = {
     {"emergency fighter program", 3}, // fortress (scientific): civ unique techs
     {"meiji restoration", 3},
     {"420mm mortar", 3},
+    {"maginot line", 3},
     {"conscription", 3},    // fortress (scientific): all civs, land military +33% train speed
     {"royal marine upgrade", 3}, // fortress (scientific): UK unique, marines -> elite marines
     {"naval hegemony", 3},       // fortress (scientific): UK unique naval buff
@@ -298,6 +300,7 @@ Control::Control(const DataStore& data, const Bonuses& bonuses, int n_players, i
                           {"fortress", "emergency fighter program"},
                           {"fortress", "meiji restoration"},
                           {"fortress", "420mm mortar"},
+                          {"fortress", "maginot line"},
                           {"fortress", "royal marine upgrade"}, // UK only (CIV_UPGRADE_OWNER)
                           {"fortress", "naval hegemony"},       // UK only (CIV_UPGRADE_OWNER)
                           {"fortress", "conscription"}}) { // all civs

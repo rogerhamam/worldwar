@@ -48,7 +48,7 @@ inline const std::array<std::vector<std::string>, 9>& civ_bonuses() {
 // (each entry is {catalog name, is_unit}); the display name + icon are read
 // from the catalog at render time. Mirrors control.cpp's CIV_ONLY_UNITS /
 // CIV_UPGRADE_OWNER single-civ ownership -- the headline uniques, not every
-// upgrade tier. Civs with none (Italy/France) show an empty list.
+// upgrade tier. Civs with none (Italy) show an empty list.
 inline const std::vector<std::pair<std::string, bool>>& civ_unique_items(int civ) {
     static const std::array<std::vector<std::pair<std::string, bool>>, 9> items = {{
         {{"royal marine", true}, {"naval hegemony", false}},                             // 0 UK
@@ -57,7 +57,7 @@ inline const std::vector<std::pair<std::string, bool>>& civ_unique_items(int civ
         {{"heavy artillery", true}, {"420mm mortar", false}},                             // 3 Soviet
         {{"yamato", true}, {"ohka", true}, {"meiji restoration", false}},                 // 4 Japan
         {},                                                                               // 5 Italy
-        {},                                                                               // 6 France
+        {{"maginot line", false}},                                                        // 6 France
         {},                                                                               // 7 China (camel no longer a unique unit)
         {{"janissary", true}, {"camel corps", true}}, // 8 Ottoman
     }};

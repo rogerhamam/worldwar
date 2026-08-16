@@ -123,6 +123,7 @@ inline std::optional<std::string> resolve_civ_unit(const std::string& name, int 
         {"emergency fighter program", {2}}, // Germany
         {"meiji restoration", {4}},          // Japan
         {"420mm mortar", {3}},               // Soviet
+        {"maginot line", {6}},               // France
         {"elite waffen upgrade", {2}},       // Germany
         {"tiger2 tank upgrade", {2}},        // Germany
         {"royal janissary upgrade", {8}},    // Ottoman

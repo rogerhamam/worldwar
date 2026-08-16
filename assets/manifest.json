@@ -1,0 +1,4030 @@
+{
+ "sprites": {
+  "spr_rifleman": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 8
+  },
+  "spr_solid": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_arrow": {
+   "ox": 16,
+   "oy": 31,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_idle": {
+   "ox": 16,
+   "oy": 32,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_idle_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_idle_icon_none": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_swordsman": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 8
+  },
+  "spr_unexplored": {
+   "ox": 4,
+   "oy": 4,
+   "fw": 40,
+   "fh": 40,
+   "frames": 1
+  },
+  "spr_fog": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_capitol": {
+   "ox": 48,
+   "oy": 48,
+   "fw": 96,
+   "fh": 96,
+   "frames": 8
+  },
+  "spr_attack_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_skull_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_mouse": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_bullet": {
+   "ox": 2,
+   "oy": 2,
+   "fw": 5,
+   "fh": 5,
+   "frames": 1
+  },
+  "spr_slice": {
+   "ox": 0,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "sprite11": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 96,
+   "fh": 96,
+   "frames": 1
+  },
+  "sprite12": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_civilian": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 8
+  },
+  "spr_button": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_barracks": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 8
+  },
+  "spr_base_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_civilian_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_berry_bush": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_resources": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 4
+  },
+  "spr_house": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 8
+  },
+  "spr_house_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_population_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_patrol_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_tree": {
+   "ox": 16,
+   "oy": 45,
+   "fw": 32,
+   "fh": 64,
+   "frames": 2
+  },
+  "spr_wood_icon": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_academy_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_soldier_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_civilian_working1": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 8
+  },
+  "spr_unit_mask": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_flags": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 96,
+   "fh": 64,
+   "frames": 9
+  },
+  "spr_flags_mini": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 48,
+   "fh": 32,
+   "frames": 9
+  },
+  "spr_nazi_base": {
+   "ox": 48,
+   "oy": 48,
+   "fw": 96,
+   "fh": 96,
+   "frames": 8
+  },
+  "spr_soviet_base": {
+   "ox": 48,
+   "oy": 48,
+   "fw": 96,
+   "fh": 96,
+   "frames": 8
+  },
+  "spr_leather_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_japan_base": {
+   "ox": 48,
+   "oy": 48,
+   "fw": 96,
+   "fh": 96,
+   "frames": 8
+  },
+  "spr_civilian_working2": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 8
+  },
+  "spr_resource_carry": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 5
+  },
+  "spr_uk_base": {
+   "ox": 48,
+   "oy": 48,
+   "fw": 96,
+   "fh": 96,
+   "frames": 8
+  },
+  "spr_mini_base": {
+   "ox": 3,
+   "oy": 3,
+   "fw": 7,
+   "fh": 6,
+   "frames": 8
+  },
+  "spr_mini_unit": {
+   "ox": 1,
+   "oy": 1,
+   "fw": 3,
+   "fh": 3,
+   "frames": 8
+  },
+  "spr_sword_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 11,
+   "fh": 11,
+   "frames": 1
+  },
+  "spr_range_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 11,
+   "fh": 11,
+   "frames": 1
+  },
+  "spr_armor_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 11,
+   "fh": 11,
+   "frames": 1
+  },
+  "spr_farm": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 2
+  },
+  "spr_farm_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_deer": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 2
+  },
+  "spr_cavalry": {
+   "ox": 22,
+   "oy": 22,
+   "fw": 45,
+   "fh": 45,
+   "frames": 8
+  },
+  "spr_industrial_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_swordsman_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_cavalry2_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_muscateer": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 8
+  },
+  "spr_muscateer_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_oil_pool": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_red": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_waypoint": {
+   "ox": 16,
+   "oy": 31,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_fight_button": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 128,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_random_civ": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 48,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_factory": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 8
+  },
+  "spr_light_tank": {
+   "ox": 40,
+   "oy": 32,
+   "fw": 80,
+   "fh": 64,
+   "frames": 8
+  },
+  "spr_light_tank_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_bullet_large": {
+   "ox": 5,
+   "oy": 5,
+   "fw": 11,
+   "fh": 11,
+   "frames": 1
+  },
+  "spr_iron_ore": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_factory_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_button_red": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_random_button": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_binoculars_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_italy_base": {
+   "ox": 48,
+   "oy": 48,
+   "fw": 96,
+   "fh": 96,
+   "frames": 8
+  },
+  "spr_shroud_edge": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 4
+  },
+  "spr_button64x32": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 64,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_palisade": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 8
+  },
+  "spr_palisade_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_replant": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_tech_tree_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 44,
+   "fh": 45,
+   "frames": 4
+  },
+  "spr_tech_tree_row": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 640,
+   "fh": 120,
+   "frames": 1
+  },
+  "tech_tree_arrow_down": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 44,
+   "fh": 20,
+   "frames": 2
+  },
+  "tech_tree_arrow_side": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 108,
+   "fh": 9,
+   "frames": 3
+  },
+  "tech_tree_through_arrow": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 44,
+   "fh": 44,
+   "frames": 1
+  },
+  "spr_tech_tree_cross": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 44,
+   "fh": 45,
+   "frames": 1
+  },
+  "spr_64confirm": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 64,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_tech_tree_col": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 128,
+   "fh": 480,
+   "frames": 1
+  },
+  "spr_button32x32": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 2
+  },
+  "spr_era_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 4
+  },
+  "spr_build_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_attack_move_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_icon_row": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_icon_box": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_icon_stagger": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_icon_split": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_airbase_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_shipyard_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_airbase": {
+   "ox": 48,
+   "oy": 32,
+   "fw": 96,
+   "fh": 64,
+   "frames": 8
+  },
+  "spr_spitfire": {
+   "ox": 46,
+   "oy": 34,
+   "fw": 93,
+   "fh": 68,
+   "frames": 8
+  },
+  "spr_fighter_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_jet_fighter_away": {
+   "ox": 46,
+   "oy": 34,
+   "fw": 93,
+   "fh": 68,
+   "frames": 8
+  },
+  "spr_air_field": {
+   "ox": 48,
+   "oy": 32,
+   "fw": 96,
+   "fh": 64,
+   "frames": 8
+  },
+  "spr_biplane": {
+   "ox": 46,
+   "oy": 34,
+   "fw": 93,
+   "fh": 68,
+   "frames": 8
+  },
+  "spr_biplane_away": {
+   "ox": 46,
+   "oy": 34,
+   "fw": 93,
+   "fh": 68,
+   "frames": 8
+  },
+  "spr_biplane_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_dust_poof": {
+   "ox": 16,
+   "oy": 19,
+   "fw": 32,
+   "fh": 32,
+   "frames": 3
+  },
+  "spr_b29_away": {
+   "ox": 80,
+   "oy": 58,
+   "fw": 160,
+   "fh": 117,
+   "frames": 8
+  },
+  "spr_war_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_scientific_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_64unit_mask": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 1
+  },
+  "spr_house3": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 8
+  },
+  "spr_house1": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 8
+  },
+  "spr_house2": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 8
+  },
+  "spr_no_fuel": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 1
+  },
+  "spr_fighter_upgrade_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_jet_fighter_upgrade_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_jet_fighter_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_jet_fighter": {
+   "ox": 46,
+   "oy": 34,
+   "fw": 93,
+   "fh": 68,
+   "frames": 8
+  },
+  "spr_zero_away": {
+   "ox": 46,
+   "oy": 34,
+   "fw": 93,
+   "fh": 68,
+   "frames": 8
+  },
+  "other_icons": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 6
+  },
+  "spr_university": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 8
+  },
+  "spr_university_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_jet_engine_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_era_icons_small": {
+   "ox": 8,
+   "oy": 8,
+   "fw": 16,
+   "fh": 16,
+   "frames": 4
+  },
+  "spr_aa_gun": {
+   "ox": 25,
+   "oy": 42,
+   "fw": 72,
+   "fh": 72,
+   "frames": 8
+  },
+  "spr_aa_gun_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_45unit_mask": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 45,
+   "fh": 45,
+   "frames": 1
+  },
+  "spr_swordsman2": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 8
+  },
+  "spr_swordsman2_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_swordsman_upgrade_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_aa_tower": {
+   "ox": 32,
+   "oy": 64,
+   "fw": 64,
+   "fh": 96,
+   "frames": 8
+  },
+  "spr_tower_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_test": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_market": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 8
+  },
+  "spr_market_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_irrigation_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_fertilizer_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_horsewagon_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_vehicle_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_pesticide_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_cavalry2": {
+   "ox": 22,
+   "oy": 22,
+   "fw": 45,
+   "fh": 45,
+   "frames": 8
+  },
+  "spr_cavalry_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_cavalry2_upgrade_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_sell_food_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_sell_wood_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_sell_iron_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_buy_food_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_buy_wood_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_buy_iron_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_steel_frame_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_ballistics_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_rifleman_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_rifleman_upgrade_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 2
+  },
+  "spr_infantryman": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 8
+  },
+  "spr_infantryman_upgrade_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_infantryman_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_heavy_tank": {
+   "ox": 46,
+   "oy": 40,
+   "fw": 92,
+   "fh": 80,
+   "frames": 8
+  },
+  "spr_heavy_tank_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_explosion": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 6
+  },
+  "spr_poof": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 4
+  },
+  "spr_electric_drill_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_fracking_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_smelting_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_beneficiation_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_button_quit": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 16,
+   "fh": 16,
+   "frames": 1
+  },
+  "spr_pausemenu": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_symbols": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 29,
+   "fh": 29,
+   "frames": 2
+  },
+  "spr_power_saw_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_mobile_sawmill_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_diesel_engine_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_refinery": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 8
+  },
+  "spr_refinery_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_refined_steel_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_metal_alloy_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_electric_arc_furnace_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_spark": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 3
+  },
+  "spr_bomber": {
+   "ox": 74,
+   "oy": 37,
+   "fw": 149,
+   "fh": 75,
+   "frames": 8
+  },
+  "spr_bomber_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_bomber_away": {
+   "ox": 74,
+   "oy": 37,
+   "fw": 149,
+   "fh": 75,
+   "frames": 8
+  },
+  "spr_explosion_large": {
+   "ox": 86,
+   "oy": 112,
+   "fw": 160,
+   "fh": 160,
+   "frames": 9
+  },
+  "spr_bomb": {
+   "ox": 17,
+   "oy": 17,
+   "fw": 35,
+   "fh": 35,
+   "frames": 1
+  },
+  "spr_bomb_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 3
+  },
+  "spr_shockwave": {
+   "ox": 121,
+   "oy": 45,
+   "fw": 240,
+   "fh": 170,
+   "frames": 4
+  },
+  "spr_attack_target_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_target_move": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_heavy_bomber_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_heavy_bomber": {
+   "ox": 74,
+   "oy": 37,
+   "fw": 149,
+   "fh": 75,
+   "frames": 8
+  },
+  "spr_heavy_bomber_upgrade_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "sprite199": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 149,
+   "fh": 75,
+   "frames": 2
+  },
+  "spr_heavy_bomber_away": {
+   "ox": 74,
+   "oy": 37,
+   "fw": 149,
+   "fh": 75,
+   "frames": 8
+  },
+  "spr_flame": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 4
+  },
+  "spr_land_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_garrison": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_fighter_small": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_bomber_small": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_biplane_small": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_b29_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 2
+  },
+  "spr_b29_small": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_b29": {
+   "ox": 80,
+   "oy": 58,
+   "fw": 160,
+   "fh": 117,
+   "frames": 8
+  },
+  "spr_explosion_mushroom": {
+   "ox": 86,
+   "oy": 112,
+   "fw": 160,
+   "fh": 160,
+   "frames": 7
+  },
+  "spr_atom_bomb": {
+   "ox": 17,
+   "oy": 17,
+   "fw": 35,
+   "fh": 35,
+   "frames": 1
+  },
+  "spr_nuclear_physics_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_atomic_bomb_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_propeller": {
+   "ox": 45,
+   "oy": 33,
+   "fw": 93,
+   "fh": 68,
+   "frames": 2
+  },
+  "sprite216": {
+   "ox": 45,
+   "oy": 33,
+   "fw": 93,
+   "fh": 68,
+   "frames": 2
+  },
+  "sprite217": {
+   "ox": 45,
+   "oy": 33,
+   "fw": 93,
+   "fh": 68,
+   "frames": 2
+  },
+  "spr_black_propeller": {
+   "ox": 45,
+   "oy": 33,
+   "fw": 93,
+   "fh": 68,
+   "frames": 2
+  },
+  "spr_civilian_dead": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 8
+  },
+  "spr_rifleman_dead": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 8
+  },
+  "spr_muscateer_dead": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 8
+  },
+  "spr_infantryman_dead": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 8
+  },
+  "spr_bomber_rubble": {
+   "ox": 65,
+   "oy": 70,
+   "fw": 128,
+   "fh": 96,
+   "frames": 1
+  },
+  "spr_heavy_bomber_rubble": {
+   "ox": 65,
+   "oy": 70,
+   "fw": 128,
+   "fh": 96,
+   "frames": 1
+  },
+  "spr_b29_rubble": {
+   "ox": 65,
+   "oy": 70,
+   "fw": 128,
+   "fh": 96,
+   "frames": 1
+  },
+  "spr_heavy_tank_rubble": {
+   "ox": 46,
+   "oy": 40,
+   "fw": 92,
+   "fh": 80,
+   "frames": 1
+  },
+  "spr_light_tank_rubble": {
+   "ox": 40,
+   "oy": 32,
+   "fw": 80,
+   "fh": 64,
+   "frames": 1
+  },
+  "spr_biplane_rubble": {
+   "ox": 65,
+   "oy": 70,
+   "fw": 128,
+   "fh": 96,
+   "frames": 1
+  },
+  "spr_fighter_rubble": {
+   "ox": 65,
+   "oy": 70,
+   "fw": 128,
+   "fh": 96,
+   "frames": 1
+  },
+  "spr_jet_fighter_rubble": {
+   "ox": 65,
+   "oy": 70,
+   "fw": 128,
+   "fh": 96,
+   "frames": 1
+  },
+  "spr_flak_rubble": {
+   "ox": 25,
+   "oy": 42,
+   "fw": 72,
+   "fh": 72,
+   "frames": 1
+  },
+  "spr_swordsman_dead": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 8
+  },
+  "spr_swordsman2_dead": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 8
+  },
+  "spr_cavalry_dead": {
+   "ox": 22,
+   "oy": 22,
+   "fw": 45,
+   "fh": 45,
+   "frames": 8
+  },
+  "spr_cavalry2_dead": {
+   "ox": 22,
+   "oy": 22,
+   "fw": 45,
+   "fh": 45,
+   "frames": 8
+  },
+  "spr_lancaster_bomber": {
+   "ox": 74,
+   "oy": 37,
+   "fw": 149,
+   "fh": 75,
+   "frames": 8
+  },
+  "spr_lancaster_bomber_away": {
+   "ox": 74,
+   "oy": 37,
+   "fw": 149,
+   "fh": 75,
+   "frames": 8
+  },
+  "spr_button128x32": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 128,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_button_quit_big": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 2
+  },
+  "spr_button_back": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_france_base": {
+   "ox": 48,
+   "oy": 48,
+   "fw": 96,
+   "fh": 96,
+   "frames": 8
+  },
+  "spr_china_base_alternate": {
+   "ox": 48,
+   "oy": 48,
+   "fw": 96,
+   "fh": 96,
+   "frames": 8
+  },
+  "spr_china_base": {
+   "ox": 48,
+   "oy": 48,
+   "fw": 96,
+   "fh": 96,
+   "frames": 9
+  },
+  "sprite245": {
+   "ox": 48,
+   "oy": 48,
+   "fw": 96,
+   "fh": 96,
+   "frames": 8
+  },
+  "spr_imports_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_clear_queue": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_waffen": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 33,
+   "frames": 8
+  },
+  "spr_waffen_dead": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 8
+  },
+  "spr_waffen_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_elite_waffen_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_elite_waffen_upgrade_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_water": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 8
+  },
+  "spr_shallows": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_shipyard": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 8
+  },
+  "spr_fishing_boat": {
+   "ox": 22,
+   "oy": 28,
+   "fw": 44,
+   "fh": 57,
+   "frames": 8
+  },
+  "spr_fishing_boat_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_fish": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 8
+  },
+  "spr_fishing_boat_working": {
+   "ox": 22,
+   "oy": 28,
+   "fw": 45,
+   "fh": 83,
+   "frames": 8
+  },
+  "spr_battleship": {
+   "ox": 80,
+   "oy": 64,
+   "fw": 160,
+   "fh": 128,
+   "frames": 8
+  },
+  "spr_battleship_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_missile": {
+   "ox": 17,
+   "oy": 17,
+   "fw": 35,
+   "fh": 35,
+   "frames": 1
+  },
+  "spr_fire_cloud": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 3
+  },
+  "spr_smoke": {
+   "ox": 17,
+   "oy": 17,
+   "fw": 34,
+   "fh": 34,
+   "frames": 1
+  },
+  "spr_destroyer": {
+   "ox": 70,
+   "oy": 45,
+   "fw": 140,
+   "fh": 91,
+   "frames": 8
+  },
+  "spr_battleship_other": {
+   "ox": 80,
+   "oy": 64,
+   "fw": 160,
+   "fh": 128,
+   "frames": 8
+  },
+  "spr_destroyer_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_100unitmask": {
+   "ox": 48,
+   "oy": 47,
+   "fw": 97,
+   "fh": 95,
+   "frames": 1
+  },
+  "spr_frigate": {
+   "ox": 80,
+   "oy": 64,
+   "fw": 160,
+   "fh": 128,
+   "frames": 8
+  },
+  "spr_frigate_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_torpedo_boat": {
+   "ox": 70,
+   "oy": 45,
+   "fw": 140,
+   "fh": 91,
+   "frames": 8
+  },
+  "spr_torpedo_boat_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_torpedo_boat_upgrade_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_destroyer_upgrade_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_battleship_upgrade_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_yamato": {
+   "ox": 100,
+   "oy": 75,
+   "fw": 200,
+   "fh": 150,
+   "frames": 8
+  },
+  "spr_yamato_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_missile_hot": {
+   "ox": 17,
+   "oy": 17,
+   "fw": 35,
+   "fh": 35,
+   "frames": 1
+  },
+  "spr_torpedo": {
+   "ox": 17,
+   "oy": 17,
+   "fw": 35,
+   "fh": 35,
+   "frames": 1
+  },
+  "spr_battleship_sink": {
+   "ox": 80,
+   "oy": 64,
+   "fw": 160,
+   "fh": 128,
+   "frames": 1
+  },
+  "spr_destroyer_sink": {
+   "ox": 70,
+   "oy": 45,
+   "fw": 140,
+   "fh": 91,
+   "frames": 1
+  },
+  "spr_yamato_sink": {
+   "ox": 80,
+   "oy": 64,
+   "fw": 160,
+   "fh": 128,
+   "frames": 1
+  },
+  "spr_torpedo_boat_sink": {
+   "ox": 70,
+   "oy": 45,
+   "fw": 140,
+   "fh": 91,
+   "frames": 1
+  },
+  "spr_frigate_sink": {
+   "ox": 80,
+   "oy": 64,
+   "fw": 160,
+   "fh": 128,
+   "frames": 1
+  },
+  "spr_fishing_boat_sink": {
+   "ox": 22,
+   "oy": 28,
+   "fw": 44,
+   "fh": 57,
+   "frames": 1
+  },
+  "spr_steel_plane_armor_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_composite_plane_armor_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_zero": {
+   "ox": 46,
+   "oy": 34,
+   "fw": 93,
+   "fh": 68,
+   "frames": 8
+  },
+  "spr_spitfire_away": {
+   "ox": 46,
+   "oy": 34,
+   "fw": 93,
+   "fh": 68,
+   "frames": 8
+  },
+  "spr_white_zero": {
+   "ox": 46,
+   "oy": 34,
+   "fw": 93,
+   "fh": 68,
+   "frames": 8
+  },
+  "spr_white_zero_away": {
+   "ox": 46,
+   "oy": 34,
+   "fw": 93,
+   "fh": 68,
+   "frames": 8
+  },
+  "spr_ohka": {
+   "ox": 46,
+   "oy": 34,
+   "fw": 93,
+   "fh": 68,
+   "frames": 8
+  },
+  "spr_fighter": {
+   "ox": 46,
+   "oy": 34,
+   "fw": 93,
+   "fh": 68,
+   "frames": 8
+  },
+  "spr_fighter_away": {
+   "ox": 46,
+   "oy": 34,
+   "fw": 93,
+   "fh": 68,
+   "frames": 8
+  },
+  "spr_meteor": {
+   "ox": 46,
+   "oy": 34,
+   "fw": 93,
+   "fh": 68,
+   "frames": 8
+  },
+  "spr_meteor_away": {
+   "ox": 46,
+   "oy": 34,
+   "fw": 93,
+   "fh": 68,
+   "frames": 8
+  },
+  "spr_europe_map": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 736,
+   "fh": 588,
+   "frames": 3
+  },
+  "spr_map_icon": {
+   "ox": 6,
+   "oy": 6,
+   "fw": 15,
+   "fh": 14,
+   "frames": 2
+  },
+  "sprite307": {
+   "ox": 8,
+   "oy": 8,
+   "fw": 16,
+   "fh": 16,
+   "frames": 1
+  },
+  "spr_ottoman_base": {
+   "ox": 48,
+   "oy": 48,
+   "fw": 96,
+   "fh": 96,
+   "frames": 8
+  },
+  "spr_ohka_away": {
+   "ox": 46,
+   "oy": 34,
+   "fw": 93,
+   "fh": 68,
+   "frames": 8
+  },
+  "spr_ohka_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_ohka_small": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_ohka_rubble": {
+   "ox": 65,
+   "oy": 70,
+   "fw": 128,
+   "fh": 96,
+   "frames": 1
+  },
+  "spr_camel": {
+   "ox": 32,
+   "oy": 26,
+   "fw": 64,
+   "fh": 52,
+   "frames": 8
+  },
+  "spr_camel_dead": {
+   "ox": 22,
+   "oy": 22,
+   "fw": 45,
+   "fh": 45,
+   "frames": 8
+  },
+  "spr_camel_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_camel_corps": {
+   "ox": 32,
+   "oy": 26,
+   "fw": 64,
+   "fh": 52,
+   "frames": 8
+  },
+  "spr_camel_corps_dead": {
+   "ox": 22,
+   "oy": 22,
+   "fw": 45,
+   "fh": 45,
+   "frames": 8
+  },
+  "spr_camel_corps_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_camel_corps_upgrade_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_palmtree": {
+   "ox": 16,
+   "oy": 45,
+   "fw": 32,
+   "fh": 64,
+   "frames": 2
+  },
+  "spr_desert_decoration": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 31,
+   "frames": 1
+  },
+  "spr_russia_flag": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 48,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_france_flag": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 48,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_mini_portrait": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 50,
+   "fh": 50,
+   "frames": 2
+  },
+  "spr_portrait": {
+   "ox": 90,
+   "oy": 128,
+   "fw": 181,
+   "fh": 256,
+   "frames": 2
+  },
+  "spr_create_unit": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_camera": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_lord_raglan": {
+   "ox": 22,
+   "oy": 22,
+   "fw": 45,
+   "fh": 45,
+   "frames": 1
+  },
+  "spr_create_building": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 1
+  },
+  "spr_goods": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_tree1": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 64,
+   "fh": 64,
+   "frames": 1
+  },
+  "spr_stones": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_bush": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_tree2": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 64,
+   "fh": 64,
+   "frames": 1
+  },
+  "spr_hedge": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_pot_plant": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_flower": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 4
+  },
+  "spr_stone1": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_stone2": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_cliff1": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_cliff2": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_cliff3": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_cliff4": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_bones": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_beige_bricks": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_grey_bricks": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_red_bricks": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_blue_bricks": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_gold_bricks": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_purple_bricks": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_white_bricks": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_stained_glass": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 2
+  },
+  "spr_fence1": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_fence2": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_fence3": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_window": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_window2": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_crate": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_lantern": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 4
+  },
+  "spr_fountain": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 3
+  },
+  "spr_green_roof": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_grey_roof": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_red_roof": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_blue_roof": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_brown_roof": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_metal_roof": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_sack": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_fortress": {
+   "ox": 48,
+   "oy": 48,
+   "fw": 96,
+   "fh": 96,
+   "frames": 8
+  },
+  "spr_fortress_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_64_rubble": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 64,
+   "fh": 64,
+   "frames": 1
+  },
+  "spr_message": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_trigger": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_janissary": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 8
+  },
+  "spr_royal_janissary": {
+   "ox": 16,
+   "oy": 24,
+   "fw": 32,
+   "fh": 40,
+   "frames": 8
+  },
+  "spr_royal_janissary_upgrade_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_janissary_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_royal_janissary_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_omar_pasha": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_locked_gate": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "sprite382": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_medal": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 20,
+   "fh": 20,
+   "frames": 4
+  },
+  "spr_group_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_german_empire_flag": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 48,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_map_icons": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 128,
+   "fh": 128,
+   "frames": 5
+  },
+  "spr_64_button": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 64,
+   "fh": 64,
+   "frames": 1
+  },
+  "spr_winter_tree": {
+   "ox": 16,
+   "oy": 45,
+   "fw": 32,
+   "fh": 64,
+   "frames": 2
+  },
+  "spr_snow": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_sand_dirt": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_green_grass": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 2
+  },
+  "spr_light_dirt": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_bright_grass": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 2
+  },
+  "spr_beach_sand": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_snow_grass": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 2
+  },
+  "spr_rocks": {
+   "ox": 15,
+   "oy": 15,
+   "fw": 30,
+   "fh": 30,
+   "frames": 1
+  },
+  "spr_urban": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_dark_dirt": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_desert_sand": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_map_mini_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 5
+  },
+  "spr_ice": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_gravel_dirt": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_tiger_tank": {
+   "ox": 65,
+   "oy": 40,
+   "fw": 130,
+   "fh": 80,
+   "frames": 8
+  },
+  "spr_tiger_tank_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_tiger2_tank": {
+   "ox": 65,
+   "oy": 40,
+   "fw": 130,
+   "fh": 80,
+   "frames": 8
+  },
+  "spr_tiger_tank2_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_tiger2_tank_upgrade_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_tiger_tank_rubble": {
+   "ox": 65,
+   "oy": 40,
+   "fw": 130,
+   "fh": 80,
+   "frames": 8
+  },
+  "spr_tiger2_tank_rubble": {
+   "ox": 65,
+   "oy": 40,
+   "fw": 130,
+   "fh": 80,
+   "frames": 8
+  },
+  "spr_house_destroyed": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 64,
+   "fh": 64,
+   "frames": 5
+  },
+  "spr_rubble1": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 64,
+   "fh": 64,
+   "frames": 1
+  },
+  "spr_96_rubble": {
+   "ox": 48,
+   "oy": 48,
+   "fw": 96,
+   "fh": 96,
+   "frames": 1
+  },
+  "spr_burn_effect": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 3
+  },
+  "spr_mini_cross": {
+   "ox": 3,
+   "oy": 3,
+   "fw": 9,
+   "fh": 8,
+   "frames": 1
+  },
+  "spr_messerschmitt": {
+   "ox": 46,
+   "oy": 34,
+   "fw": 93,
+   "fh": 68,
+   "frames": 8
+  },
+  "spr_messerchmitt_away": {
+   "ox": 46,
+   "oy": 34,
+   "fw": 93,
+   "fh": 68,
+   "frames": 8
+  },
+  "spr_me262": {
+   "ox": 46,
+   "oy": 34,
+   "fw": 93,
+   "fh": 68,
+   "frames": 8
+  },
+  "spr_debris": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 16,
+   "fh": 16,
+   "frames": 4
+  },
+  "spr_me262_away": {
+   "ox": 46,
+   "oy": 34,
+   "fw": 93,
+   "fh": 68,
+   "frames": 8
+  },
+  "spr_cavalry3": {
+   "ox": 22,
+   "oy": 22,
+   "fw": 45,
+   "fh": 45,
+   "frames": 8
+  },
+  "spr_cavalry3_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_cavalry3_upgrade_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_nuclear_power_plant": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 96,
+   "fh": 96,
+   "frames": 2
+  },
+  "spr_nuclear_reactor": {
+   "ox": 48,
+   "oy": 32,
+   "fw": 96,
+   "fh": 64,
+   "frames": 8
+  },
+  "spr_nuclear_reactor_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_build_military_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_white_smoke": {
+   "ox": 17,
+   "oy": 17,
+   "fw": 34,
+   "fh": 34,
+   "frames": 1
+  },
+  "spr_mustang": {
+   "ox": 46,
+   "oy": 34,
+   "fw": 93,
+   "fh": 68,
+   "frames": 8
+  },
+  "spr_mustang_away": {
+   "ox": 46,
+   "oy": 34,
+   "fw": 93,
+   "fh": 68,
+   "frames": 8
+  },
+  "spr_shooting_star": {
+   "ox": 52,
+   "oy": 38,
+   "fw": 105,
+   "fh": 77,
+   "frames": 8
+  },
+  "spr_shooting_star_away": {
+   "ox": 52,
+   "oy": 38,
+   "fw": 105,
+   "fh": 77,
+   "frames": 8
+  },
+  "spr_back_arrow": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_gasoline_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_synthetic_fuel_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "sprite436": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_2x2construction": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 2
+  },
+  "spr_3x3construction": {
+   "ox": 48,
+   "oy": 48,
+   "fw": 96,
+   "fh": 96,
+   "frames": 1
+  },
+  "spr_1x1construction": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_3x2construction": {
+   "ox": 48,
+   "oy": 48,
+   "fw": 96,
+   "fh": 64,
+   "frames": 1
+  },
+  "spr_blowback_operation_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_rifle": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_artillery": {
+   "ox": 30,
+   "oy": 20,
+   "fw": 60,
+   "fh": 41,
+   "frames": 8
+  },
+  "spr_flak": {
+   "ox": 25,
+   "oy": 42,
+   "fw": 72,
+   "fh": 72,
+   "frames": 8
+  },
+  "spr_flak_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_flak_upgrade_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_artillery_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_aa_gun_rubble": {
+   "ox": 25,
+   "oy": 42,
+   "fw": 72,
+   "fh": 72,
+   "frames": 1
+  },
+  "spr_barracks_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_academy": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 8
+  },
+  "spr_leaders": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 50,
+   "fh": 50,
+   "frames": 27
+  },
+  "spr_bolt_action_rifle_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_semi_automatic_rifle_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_assault_rifle_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_tank": {
+   "ox": 46,
+   "oy": 40,
+   "fw": 92,
+   "fh": 80,
+   "frames": 8
+  },
+  "spr_tank_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_heavy_tank_upgrade_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_32x32": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_hubert_gough": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 38,
+   "frames": 1
+  },
+  "spr_flak_tower_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_tower": {
+   "ox": 32,
+   "oy": 64,
+   "fw": 64,
+   "fh": 96,
+   "frames": 8
+  },
+  "spr_2x2small_construction": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 1
+  },
+  "spr_flak_tower_upgrade_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_tower_mask": {
+   "ox": 32,
+   "oy": 64,
+   "fw": 64,
+   "fh": 96,
+   "frames": 1
+  },
+  "spr_super_tower": {
+   "ox": 32,
+   "oy": 64,
+   "fw": 64,
+   "fh": 128,
+   "frames": 8
+  },
+  "background0": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "background1": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 640,
+   "fh": 480,
+   "frames": 1
+  },
+  "bg_menu": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 640,
+   "fh": 480,
+   "frames": 1
+  },
+  "bg_grass": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "background6": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "bg0": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 1299,
+   "fh": 480,
+   "frames": 1
+  },
+  "bg1": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 1299,
+   "fh": 480,
+   "frames": 1
+  },
+  "bg2": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 1270,
+   "fh": 480,
+   "frames": 1
+  },
+  "bg3": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 1125,
+   "fh": 480,
+   "frames": 1
+  },
+  "background11": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 736,
+   "fh": 588,
+   "frames": 1
+  },
+  "bg4": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 1125,
+   "fh": 480,
+   "frames": 1
+  },
+  "bg_desert": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "tileset0": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 128,
+   "fh": 192,
+   "frames": 1
+  },
+  "tileset1": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 128,
+   "fh": 256,
+   "frames": 1
+  },
+  "bg_snow": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "tileset_solids": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 128,
+   "fh": 192,
+   "frames": 1
+  },
+  "tileset_decoration": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 128,
+   "fh": 256,
+   "frames": 1
+  },
+  "bg_dirt": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_dirt": {
+   "ox": 16,
+   "oy": 16,
+   "fw": 32,
+   "fh": 32,
+   "frames": 1
+  },
+  "spr_artillery_rubble": {
+   "ox": 32,
+   "oy": 17,
+   "fw": 64,
+   "fh": 35,
+   "frames": 8
+  },
+  "spr_buckingham_palace": {
+   "ox": 62,
+   "oy": 48,
+   "fw": 125,
+   "fh": 96,
+   "frames": 1
+  },
+  "spr_aircraftcarrier2": {
+   "ox": 105,
+   "oy": 90,
+   "fw": 210,
+   "fh": 180,
+   "frames": 8
+  },
+  "spr_aircraftcarrier2_small": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_aircraftcarrier1": {
+   "ox": 95,
+   "oy": 64,
+   "fw": 191,
+   "fh": 129,
+   "frames": 8
+  },
+  "spr_aircraftcarrier1_small": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_aircraftcarrier1_icon": {
+   "ox": 20,
+   "oy": 20,
+   "fw": 40,
+   "fh": 40,
+   "frames": 8
+  },
+  "spr_aircraftcarrier2_icon": {
+   "ox": 20,
+   "oy": 20,
+   "fw": 40,
+   "fh": 40,
+   "frames": 8
+  },
+  "spr_outpost_victorian_era": {
+   "ox": 16,
+   "oy": 32,
+   "fw": 32,
+   "fh": 64,
+   "frames": 8
+  },
+  "spr_outpost_war_era": {
+   "ox": 16,
+   "oy": 32,
+   "fw": 32,
+   "fh": 64,
+   "frames": 8
+  },
+  "bg_title0": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 800,
+   "fh": 480,
+   "frames": 1
+  },
+  "bg_title1": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 800,
+   "fh": 480,
+   "frames": 1
+  },
+  "bg_title2": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 800,
+   "fh": 480,
+   "frames": 1
+  },
+  "bg_title3": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 800,
+   "fh": 480,
+   "frames": 1
+  },
+  "bg_map_normandy": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 240,
+   "fh": 240,
+   "frames": 1
+  },
+  "bg_title4": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 800,
+   "fh": 480,
+   "frames": 1
+  },
+  "bg_map_guam": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 240,
+   "fh": 240,
+   "frames": 1
+  },
+  "bg_title5": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 800,
+   "fh": 480,
+   "frames": 1
+  },
+  "bg_map_ardennes": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 240,
+   "fh": 240,
+   "frames": 1
+  },
+  "bg_title6": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 800,
+   "fh": 480,
+   "frames": 1
+  },
+  "bg_map_ostland": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 240,
+   "fh": 240,
+   "frames": 1
+  },
+  "bg_title7": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 800,
+   "fh": 480,
+   "frames": 1
+  },
+  "bg_map_stalingrad": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 240,
+   "fh": 240,
+   "frames": 1
+  },
+  "spr_outpost_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_hydrodynamics_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_naval_armour_icon": {
+   "ox": 12,
+   "oy": 12,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_asian_house": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 8
+  },
+  "spr_transport_ship_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_transport_ship": {
+   "ox": 85,
+   "oy": 70,
+   "fw": 170,
+   "fh": 140,
+   "frames": 8
+  },
+  "spr_asian_house1": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 8
+  },
+  "spr_asian_house2": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 8
+  },
+  "spr_asian_house3": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 8
+  },
+  "spr_barracks_german": {
+   "ox": 32,
+   "oy": 32,
+   "fw": 64,
+   "fh": 64,
+   "frames": 8
+  },
+  "spr_artillery1": {
+   "ox": 28,
+   "oy": 20,
+   "fw": 56,
+   "fh": 41,
+   "frames": 8
+  },
+  "spr_artillery1_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_artillery_upgrade": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_artillery1_rubble": {
+   "ox": 32,
+   "oy": 17,
+   "fw": 64,
+   "fh": 35,
+   "frames": 8
+  },
+  "spr_unique_tech_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_conscription_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "bg_map_negev desert": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 240,
+   "fh": 240,
+   "frames": 1
+  },
+  "bg_map_santa cruz islands": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 240,
+   "fh": 240,
+   "frames": 1
+  },
+  "bg_map_pacific islands": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 240,
+   "fh": 240,
+   "frames": 1
+  },
+  "spr_map_ostland": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 1061,
+   "fh": 727,
+   "frames": 1
+  },
+  "spr_map_negev_desert": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 1061,
+   "fh": 727,
+   "frames": 1
+  },
+  "spr_map_stalingrad": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 1061,
+   "fh": 727,
+   "frames": 1
+  },
+  "spr_map_ardennes": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 1061,
+   "fh": 727,
+   "frames": 1
+  },
+  "spr_map_guam": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 873,
+   "fh": 806,
+   "frames": 1
+  },
+  "spr_map_santa_cruz_islands": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 873,
+   "fh": 806,
+   "frames": 1
+  },
+  "spr_map_pacific_islands": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 873,
+   "fh": 806,
+   "frames": 1
+  },
+  "spr_map_normandy": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 1061,
+   "fh": 727,
+   "frames": 1
+  },
+  "spr_radar_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_ballistic_missile": {
+   "ox": 90,
+   "oy": 6,
+   "fw": 97,
+   "fh": 75,
+   "frames": 1
+  },
+  "spr_ballistic_missile_packed": {
+   "ox": 51,
+   "oy": 104,
+   "fw": 112,
+   "fh": 112,
+   "frames": 8
+  },
+  "spr_ballistic_missile_unpacked_unloaded": {
+   "ox": 51,
+   "oy": 104,
+   "fw": 112,
+   "fh": 112,
+   "frames": 8
+  },
+  "spr_ballistic_missile_unpacked_loaded": {
+   "ox": 51,
+   "oy": 104,
+   "fw": 112,
+   "fh": 112,
+   "frames": 8
+  },
+  "spr_ballistic_missile_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_royal_marine": {
+   "ox": 21,
+   "oy": 22,
+   "fw": 42,
+   "fh": 43,
+   "frames": 8
+  },
+  "spr_royal_marine_dead": {
+   "ox": 24,
+   "oy": 24,
+   "fw": 48,
+   "fh": 48,
+   "frames": 8
+  },
+  "spr_elite_royal_marine_dead": {
+   "ox": 24,
+   "oy": 24,
+   "fw": 48,
+   "fh": 48,
+   "frames": 8
+  },
+  "spr_royal_marine_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_rocket_particle": {
+   "ox": 9,
+   "oy": 9,
+   "fw": 18,
+   "fh": 18,
+   "frames": 5
+  },
+  "spr_ballistic_missile_destroyed": {
+   "ox": 48,
+   "oy": 66,
+   "fw": 97,
+   "fh": 76,
+   "frames": 1
+  },
+  "spr_ballistic_missile_unpacked_destroyed": {
+   "ox": 50,
+   "oy": 56,
+   "fw": 101,
+   "fh": 64,
+   "frames": 1
+  },
+  "spr_artillery2_destroyed": {
+   "ox": 31,
+   "oy": 17,
+   "fw": 63,
+   "fh": 35,
+   "frames": 8
+  },
+  "spr_artillery1_destroyed": {
+   "ox": 27,
+   "oy": 20,
+   "fw": 55,
+   "fh": 41,
+   "frames": 8
+  },
+  "spr_speed_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_shipyard_to_econ_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_shipyard_to_mil_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_heavy_artillery": {
+   "ox": 40,
+   "oy": 30,
+   "fw": 80,
+   "fh": 60,
+   "frames": 8
+  },
+  "spr_heavy_artillery_icon": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 8
+  },
+  "spr_heavy_artillery_destroyed": {
+   "ox": 40,
+   "oy": 30,
+   "fw": 80,
+   "fh": 60,
+   "frames": 8
+  },
+  "spr_heavy_artillery_upgrade": {
+   "ox": 0,
+   "oy": 0,
+   "fw": 24,
+   "fh": 24,
+   "frames": 1
+  },
+  "spr_tank_soviet": {
+   "ox": 45,
+   "oy": 40,
+   "fw": 90,
+   "fh": 80,
+   "frames": 8
+  },
+  "spr_tank_soviet_rubble": {
+   "ox": 45,
+   "oy": 40,
+   "fw": 90,
+   "fh": 80,
+   "frames": 8
+  },
+  "spr_heavy_tank_soviet": {
+   "ox": 47,
+   "oy": 40,
+   "fw": 95,
+   "fh": 80,
+   "frames": 8
+  },
+  "spr_heavy_tank_soviet_rubble": {
+   "ox": 47,
+   "oy": 40,
+   "fw": 95,
+   "fh": 80,
+   "frames": 8
+  }
+ },
+ "sounds": {
+  "snd_gunshot": ".wav",
+  "snd_sword": ".wav",
+  "snd_male_death2": ".wav",
+  "snd_japan_yes": ".wav",
+  "snd_japan_understood": ".wav",
+  "snd_base": ".wav",
+  "snd_japan_me": ".wav",
+  "snd_collect_food": ".wav",
+  "snd_cut_wood": ".wav",
+  "snd_soviet_yes": ".wav",
+  "snd_soviet_understood": ".wav",
+  "snd_soviet_me": ".wav",
+  "snd_uk_me": ".wav",
+  "snd_uk_yes": ".wav",
+  "snd_uk_understood": ".wav",
+  "snd_nazi_me": ".wav",
+  "snd_nazi_yes": ".wav",
+  "snd_nazi_understood": ".wav",
+  "snd_cavalry_move": ".wav",
+  "snd_cannon": ".wav",
+  "snd_tank_move2": ".wav",
+  "snd_barracks": ".wav",
+  "snd_house": ".wav",
+  "snd_factory": ".wav",
+  "snd_mine": ".wav",
+  "snd_italy_me": ".wav",
+  "snd_italy_yes": ".wav",
+  "snd_italy_understood": ".wav",
+  "snd_population_limit": ".wav",
+  "snd_age_advance": ".wav",
+  "snd_warning_attack": ".wav",
+  "snd_menu_select": ".wav",
+  "snd_military_spawn": ".wav",
+  "snd_villager_spawn": ".wav",
+  "snd_error_click": ".wav",
+  "snd_farm_exhausted": ".wav",
+  "snd_waypoint": ".wav",
+  "snd_chat": ".wav",
+  "snd_research_complete": ".wav",
+  "snd_click_button": ".wav",
+  "snd_wall_create": ".wav",
+  "snd_plane": ".wav",
+  "snd_plane_backing": ".wav",
+  "snd_explosion1": ".wav",
+  "snd_tank_backing": ".wav",
+  "snd_torpedo": ".wav",
+  "snd_plane_crash": ".wav",
+  "snd_university": ".wav",
+  "snd_tower": ".wav",
+  "snd_lose": ".wav",
+  "snd_victory": ".wav",
+  "snd_french_yes": ".wav",
+  "snd_french_me": ".wav",
+  "snd_french_understood": ".wav",
+  "snd_ottoman_me": ".wav",
+  "snd_shipyard": ".wav",
+  "snd_cannon_fire": ".wav",
+  "snd_cavalry_death2": ".wav",
+  "snd_cavalry_death1": ".wav",
+  "snd_male_death1": ".wav",
+  "snd_ship_sink1": ".wav",
+  "snd_ship_sink2": ".wav",
+  "snd_ship_move": ".wav",
+  "snd_fishing": ".wav",
+  "snd_ship_select": ".wav",
+  "snd_ship_horn": ".wav",
+  "snd_battleship_spawn": ".wav",
+  "snd_camel_death1": ".wav",
+  "snd_camel_death2": ".wav",
+  "snd_camel_select1": ".wav",
+  "snd_camel_select2": ".wav",
+  "snd_ottoman_yes": ".wav",
+  "snd_ottoman_understood": ".wav",
+  "snd_gaia": ".wav",
+  "snd_fortress": ".wav",
+  "snd_sword2": ".wav",
+  "snd_sword3": ".wav",
+  "snd_sword4": ".wav",
+  "snd_missile_impact2": ".wav",
+  "snd_missile_impact1": ".wav",
+  "snd_attack_warning": ".wav",
+  "snd_french_attack": ".wav",
+  "snd_french_attack2": ".wav",
+  "snd_french_attack3": ".wav",
+  "snd_italy_attack": ".wav",
+  "snd_italy_attack2": ".wav",
+  "snd_italy_attack3": ".wav",
+  "snd_build1": ".wav",
+  "snd_academy": ".wav",
+  "snd_govt_center": ".wav",
+  "snd_gunshot_deep": ".wav"
+ },
+ "scripts": [
+  "",
+  "spr_gun1",
+  "sprite278",
+  "get_stats",
+  "count_military",
+  "count_civilian",
+  "get_civ",
+  "get_cost",
+  "snd_play",
+  "has_tech",
+  "in_screen",
+  "correct_view",
+  "afford",
+  "pay",
+  "count_building",
+  "get_leader_name",
+  "give_points",
+  "get_civ_name",
+  "get_col",
+  "get_col_rgb",
+  "cost_string",
+  "get_icon",
+  "count_resource_near",
+  "get_civilian_ratio",
+  "researching_tech",
+  "debug_research",
+  "check_n_selected",
+  "has",
+  "get_civ_desc",
+  "collision_circle_list",
+  "count_farm",
+  "script32",
+  "display_message",
+  "display_warning",
+  "centre_view",
+  "get_nearest_entity",
+  "get_nearest_unit",
+  "get_nearest_building",
+  "closest_from_list",
+  "tick",
+  "update_entities",
+  "get_era_sprite",
+  "get_pop_required",
+  "research",
+  "random_from_list",
+  "get_nearest_tree",
+  "get_free_techs",
+  "set_strategy",
+  "choose_strategy",
+  "get_item_description",
+  "get_query",
+  "refund",
+  "play_building_sound",
+  "in_water",
+  "sprite_in_water",
+  "lose",
+  "get_flag",
+  "win",
+  "map_query",
+  "string_upper_initial",
+  "on_path",
+  "get_leader_bonus",
+  "refund_fraction"
+ ],
+ "backgrounds": {},
+ "objects": [
+  "voice",
+  "obj_unit",
+  "obj_solid_wall",
+  "control",
+  "obj_waypoint",
+  "obj_building",
+  "obj_bullet",
+  "obj_slice",
+  "obj_button",
+  "mouse",
+  "obj_entity",
+  "obj_blueprint",
+  "obj_construction",
+  "obj_berry_bush",
+  "obj_berry_creator",
+  "obj_tree_creator",
+  "obj_tree",
+  "obj_enemy_blueprint",
+  "obj_flag_button",
+  "obj_deer",
+  "obj_deer_creator",
+  "obj_oil_pool",
+  "obj_oil_creator",
+  "obj_flag_mini_button",
+  "obj_fight_button",
+  "obj_color_button",
+  "obj_ally_button",
+  "obj_iron_ore",
+  "obj_iron_creator",
+  "obj_random_civ",
+  "obj_map_size_button",
+  "obj_n_player_button",
+  "obj_tree_creator_fill",
+  "obj_tech_tree_button",
+  "obj_tech_tree_open",
+  "obj_confirm_civ",
+  "obj_close_tech_tree",
+  "obj_left_arrow",
+  "obj_right_arrow",
+  "obj_map_location_button",
+  "obj_inert",
+  "obj_show_gather_point",
+  "obj_dust_poof",
+  "obj_test",
+  "obj_explosion",
+  "obj_poof",
+  "obj_map_pop_max_button",
+  "obj_map_reveal",
+  "obj_button_quit",
+  "obj_difficulty_button",
+  "obj_spark",
+  "obj_explosion_large",
+  "obj_bomb",
+  "obj_shockwave",
+  "obj_game_mode_button",
+  "obj_flame",
+  "obj_dead_body",
+  "obj_rubble",
+  "obj_explosion_effect",
+  "obj_random_map",
+  "obj_button_back",
+  "obj_campaign_button",
+  "obj_water",
+  "obj_fish",
+  "obj_missile",
+  "obj_fire_cloud",
+  "obj_smoke",
+  "obj_info_button",
+  "obj_sink",
+  "obj_uk_campaign",
+  "obj_map_icon",
+  "obj_decoration",
+  "obj_start_campaign_button",
+  "obj_portrait",
+  "obj_campaign",
+  "obj_create_unit",
+  "obj_camera",
+  "obj_create_building",
+  "obj_goods",
+  "obj_big_tree",
+  "obj_stones",
+  "obj_fighter_rubble",
+  "obj_bomber_rubble",
+  "obj_heavy_bomber_rubble",
+  "obj_biplane_rubble",
+  "obj_b29_rubble",
+  "obj_light_tank_rubble",
+  "obj_heavy_tank_rubble",
+  "obj_64_rubble",
+  "obj_message",
+  "obj_cliff3",
+  "obj_fence1",
+  "obj_crate",
+  "obj_trigger",
+  "obj_locked_gate",
+  "obj_map_button",
+  "obj_decoration_creator",
+  "obj_house_destroyed",
+  "obj_attack_warning",
+  "obj_leader_button",
+  "obj_solid",
+  "obj_solid_invisible"
+ ],
+ "fonts": [
+  "fnt_menu",
+  "fnt_small",
+  "fnt_tiny",
+  "fnt_title",
+  "fnt_massive",
+  "fnt_size8"
+ ],
+ "rooms": [
+  "rm_game",
+  "rm_title",
+  "rm_menu",
+  "rm_mode",
+  "rm_campaign",
+  "rm_cinematic",
+  "rm_uk_level1",
+  "rm_uk_level2"
+ ]
+}

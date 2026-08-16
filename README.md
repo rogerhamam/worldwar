@@ -3,6 +3,26 @@
 A WW2 RTS: a C++/SDL2 game engine, a standalone campaign editor, and a
 Python launcher that keeps players updated.
 
+## Play it
+
+Windows only. Nothing to install and nothing to build — the game binary and
+its DLLs ship in this repo, next to the `assets/` and `data/` they load.
+
+```
+git clone https://github.com/rogerhamam/worldwar.git
+cd worldwar
+play.bat
+```
+
+(Or just double-click `play.bat` / `worldwar_client.exe` in Explorer.)
+
+The clone is ~180 MB, most of it music and sprites. If `git clone` is slow,
+`git clone --depth 1` grabs the same playable tree without the history.
+
+Fonts come from `C:\Windows\Fonts`, so there's nothing else to fetch. The game
+writes `worldwar_perf.log` next to the exe — if it ever stalls or crashes, that
+file names the last frame before it went wrong.
+
 ## Layout
 
 - `game/` — the main game (engine + client). Builds `worldwar_client.exe`.
@@ -15,7 +35,12 @@ Python launcher that keeps players updated.
 - `launcher/` — the player-facing launcher (`launcher.py`, built with
   PyInstaller via `build_launcher.bat`). Downloads/updates the game from
   GitHub Releases and runs it.
-- `play.bat` — runs a locally built dev binary directly.
+- `worldwar_client.exe` + the `SDL2*.dll` / `lib*.dll` beside it — the
+  prebuilt, ready-to-run game (see **Play it** above). The exe looks for
+  `assets/` and `data/` next to itself, which is why they all sit at the
+  repo root together.
+- `play.bat` — runs the prebuilt exe, or a locally built dev binary if
+  you've built from source.
 - `publish.bat` — builds the game, assembles a release zip, and uploads
   it to GitHub Releases (see `RELEASING.md`).
 
@@ -39,8 +64,11 @@ folder (`cmake -G Ninja -B build && cmake --build build`).
 
 ## Running
 
-- Dev build: double-click `play.bat`, or run
-  `game\build\client\worldwar_client.exe` directly.
+- Just playing: `play.bat` (see **Play it** above) — no build required.
+- Dev build: once you've run `build.bat`, `play.bat` still works; or run
+  `game\build\client\worldwar_client.exe` directly. Note a dev binary run
+  from its build folder falls back to the compile-time asset paths, so it
+  reads this repo's `assets/`/`data/` rather than copies beside the exe.
 - Players: `launcher\launcher.py` (or the built `WorldWarLauncher.exe`)
   downloads the latest published release and launches it — see
   `RELEASING.md` for how releases are cut.
